@@ -9,6 +9,7 @@ import sqlite3
 import os
 
 dirname = os.path.dirname(__file__)
+db_file = 'recipe-reduced.sqlite'
 pp = pprint.PrettyPrinter(indent=2)
 
 urls = [
@@ -29,7 +30,7 @@ def match_label(ingredient, title):
 
 #init db w foreign key constraints
 try:
-	conn = sqlite3.connect(os.path.join(dirname, 'recipe.db'))
+	conn = sqlite3.connect(os.path.join(dirname, db_file))
 	c = conn.cursor()
 	with conn:
 		c.execute("PRAGMA foreign_keys = ON;")
@@ -62,7 +63,7 @@ for url in urls:
 
 	#add recipe info to db
 	try:
-		conn = sqlite3.connect(os.path.join(dirname, 'recipe.db'))
+		conn = sqlite3.connect(os.path.join(dirname, db_file))
 		c = conn.cursor()
 		with conn:
 			c.execute("INSERT INTO 'https://schema.org/Recipe' ('https://schema.org/Recipe/name', 'https://schema.org/Recipe/url') VALUES (?, ?)", (title, url))
@@ -81,7 +82,7 @@ for url in urls:
 		matched_ingredient = match_label(ingredient_text, title)
 		if matched_ingredient:
 			try:
-				conn = sqlite3.connect(os.path.join(dirname, 'recipe.db'))
+				conn = sqlite3.connect(os.path.join(dirname, db_file))
 				c = conn.cursor()
 				description = None
 				row_id = 0
@@ -108,7 +109,7 @@ for url in urls:
 					##now, add to the ingredient list
 					c.execute('''
 						INSERT INTO "https://schema.org/Recipe/Ingredient" ("http://underlay.org/ns/source", "http://underlay.org/ns/target") 
-						VALUES (?,?)''', (row_id , recipe_id))
+						VALUES (?,?)''', (recipe_id, row_id))
 
 			except sqlite3.Error as e:
 				print('sqlite', e)
