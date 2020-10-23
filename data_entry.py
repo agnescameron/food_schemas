@@ -1,5 +1,4 @@
-#scrape a bunch of chickpea recipes
-import pprint
+#scrape a bunch of recipes
 import re
 import json
 import toml
@@ -8,10 +7,10 @@ import os
 import requests
 
 import web_scraper as ws
+import nyt
 
 dirname = os.path.dirname(__file__)
 db_file = 'recipe-reduced.sqlite'
-pp = pprint.PrettyPrinter(indent=2)
 
 def match_label(ingredient, title):
 	matches = requests.get('http://www.ebi.ac.uk/ols/api/search?q=(%s)&ontology=foodon' % ingredient)
@@ -22,16 +21,6 @@ def match_label(ingredient, title):
 		return match
 	else:
 		return None
-
-#init db w foreign key constraints
-try:
-	conn = sqlite3.connect(os.path.join(dirname, db_file))
-	c = conn.cursor()
-	with conn:
-		c.execute("PRAGMA foreign_keys = ON;")
-except sqlite3.Error as e:
-	print(e)
-
 
 def insert_data(recipe):
 	#add recipe info to db
@@ -46,13 +35,8 @@ def insert_data(recipe):
 
 
 	for ingredient in recipe.ingredients:
-		ingredient_name = ingredient.find('span', {'class': re.compile(r'name|Name|ingredient(?!.*(unit|amount))')})
-		if ingredient_name:
-			ingredient = ingredient_name
-		ingredient_text = ingredient.text.strip()
-		ingredient_text = re.sub(r'\s+', ' ', ingredient_text)
+		matched_ingredient = match_label(ingredient, recipe.title)
 
-		matched_ingredient = match_label(ingredient_text, recipe.title)
 		if matched_ingredient:
 			try:
 				conn = sqlite3.connect(os.path.join(dirname, db_file))
@@ -90,15 +74,23 @@ def insert_data(recipe):
 				if conn:
 					conn.close()
 
-	for direction in recipe.directions:
-		direction_text = direction.text.strip()
-		direction_text = re.sub(r'\s+', ' ', direction_text)
-
-
 if __name__ == "__main__":
-#each recipe gets directions and ingredients
-	recipes = ws.scrape()
 
-	for recipe in recipes:
+	#init db w foreign key constraints
+	try:
+		conn = sqlite3.connect(os.path.join(dirname, db_file))
+		c = conn.cursor()
+		with conn:
+			c.execute("PRAGMA foreign_keys = ON;")
+	except sqlite3.Error as e:
+		print(e)
+
+	recipes = nyt.scrape()
+
+	#each recipe gets directions and ingredients
+	# recipes = ws.scrape()
+
+	for index, recipe in enumerate(recipes):
+		print('recipe number', index)
 		insert_data(recipe)
 
