@@ -1,5 +1,5 @@
 from pyquery import PyQuery as pq
-from recipe import Recipe
+from scrapers.recipe import Recipe
 import re
 import os
 

@@ -1,7 +1,8 @@
 from bs4 import BeautifulSoup
-from recipe import Recipe
+from scrapers.recipe import Recipe
 import requests
 import re
+from recipe_scrapers import scrape_me
 
 urls = [
 	'https://www.archanaskitchen.com/karate-batate-puddi-sagale-recipe-konkani-style-bitter-gourd-and-potato-curry',
@@ -24,12 +25,12 @@ def scrape():
 		ingredient_container = soup.find('div', {'class': re.compile(r'(?<!direction.)ingredient(?!.*(direction|instruction|steps))')})
 		ingredients = ingredient_container.find_all('li')
 
-		for ingredient in ingredients:
+		for index, ingredient in enumerate(ingredients):
 			ingredient_name = ingredient.find('span', {'class': re.compile(r'name|Name|ingredient(?!.*(unit|amount))')})
 			if ingredient_name:
 				ingredient = ingredient_name
 			ingredient = ingredient.text.strip()
-			ingredient = re.sub(r'\s+', ' ', ingredient)
+			ingredients[index] = re.sub(r'\s+', ' ', ingredient)
 
 		#look for a div where the classname contains ingredients and get the list from there
 		direction_container = soup.find('div', {'class': re.compile(r'(?<!ingredient.)direction|instruction|steps(?!.*(ingredient|description))')})

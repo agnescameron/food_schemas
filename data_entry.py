@@ -6,11 +6,14 @@ import sqlite3
 import os
 import requests
 
-import web_scraper as ws
-import nyt
+# incorporating different scraping modules
+# change the import statement to change the scraper
+# e.g. import scrapers.nyt as mod
+# e.g. import scrapers.manual as mod
+import scrapers.py_scraper as mod
 
 dirname = os.path.dirname(__file__)
-db_file = 'recipe-reduced.sqlite'
+db_file = 'recipe.sqlite'
 
 def match_label(ingredient, title):
 	matches = requests.get('http://www.ebi.ac.uk/ols/api/search?q=(%s)&ontology=foodon' % ingredient)
@@ -23,12 +26,13 @@ def match_label(ingredient, title):
 		return None
 
 def insert_data(recipe):
+	recipe_id = 0
 	#add recipe info to db
 	try:
 		conn = sqlite3.connect(os.path.join(dirname, db_file))
 		c = conn.cursor()
 		with conn:
-			c.execute("INSERT INTO 'https://schema.org/Recipe' ('https://schema.org/Recipe/name', 'https://schema.org/Recipe/url') VALUES (?, ?)", (recipe.title, recipe.url))
+			c.execute("INSERT INTO 'https://schema.org/Recipe' ('https://schema.org/Recipe/name', 'https://schema.org/Recipe/author', 'https://schema.org/Recipe/source') VALUES (?, ?, ?)", (recipe.title, recipe.author, recipe.source))
 			recipe_id = c.lastrowid
 	except sqlite3.Error as e:
 		print(e)
@@ -46,8 +50,8 @@ def insert_data(recipe):
 
 				if 'description' in matched_ingredient:
 					description = matched_ingredient['description'][0]
-				with conn:
 
+				with conn:
 					##insert the ingredients
 					row = c.execute('''
 						SELECT * FROM "https://schema.org/Ingredient"
@@ -81,11 +85,14 @@ if __name__ == "__main__":
 		conn = sqlite3.connect(os.path.join(dirname, db_file))
 		c = conn.cursor()
 		with conn:
+			c.execute('''CREATE TABLE IF NOT EXISTS "https://schema.org/Recipe" ( id INTEGER PRIMARY KEY, "https://schema.org/Recipe/author" text not null, "https://schema.org/Recipe/name" text not null, "https://schema.org/Recipe/source" text not null )''')
+			c.execute('''CREATE TABLE IF NOT EXISTS "https://schema.org/Ingredient" ( id INTEGER PRIMARY KEY, "https://schema.org/Ingredient/description" text, "https://schema.org/Ingredient/id" text not null, "https://schema.org/Ingredient/name" text not null )''')
+			c.execute('''CREATE TABLE IF NOT EXISTS "https://schema.org/Recipe/ingredient" ( id INTEGER PRIMARY KEY, "http://underlay.org/ns/source" integer not null references "https://schema.org/Recipe", "http://underlay.org/ns/target" integer not null references "https://schema.org/Ingredient" )''')
 			c.execute("PRAGMA foreign_keys = ON;")
 	except sqlite3.Error as e:
 		print(e)
 
-	recipes = nyt.scrape()
+	recipes = mod.scrape()
 
 	#each recipe gets directions and ingredients
 	# recipes = ws.scrape()
