@@ -10,7 +10,7 @@ import requests
 # change the import statement to change the scraper
 # e.g. import scrapers.nyt as mod
 # e.g. import scrapers.manual as mod
-import scrapers.py_scraper as mod
+import scrapers.nyt as mod
 
 dirname = os.path.dirname(__file__)
 db_file = 'recipe.sqlite'

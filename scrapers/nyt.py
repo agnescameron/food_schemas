@@ -19,7 +19,8 @@ def scrape():
 
 			# print(d)
 			title = d(".recipe-title").text()
-			print(title)
+			author = d("span.byline-name").text()
+			print(title, author)
 
 			for el in d("span.ingredient-name"):
 				ingredients.append(d(el).text())
@@ -27,7 +28,7 @@ def scrape():
 			for el in d("ol.recipe-steps > li"):
 				directions.append(d(el).text())
 
-			recipe = Recipe(title, ingredients, directions, url)
+			recipe = Recipe(title, ingredients, directions, url, author)
 			recipes.append(recipe)
 
 
