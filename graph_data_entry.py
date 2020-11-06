@@ -1,52 +1,89 @@
+#scrape a bunch of recipes
+import re
+import json
+import toml
 from py2neo import Graph, Node, Relationship, NodeMatcher
 import os
-import sqlite3
+import requests
 
 uri = 'bolt://localhost:7687'
 user = 'neo4j'
 password = 'snacks'
 
-dirname = os.path.dirname(__file__)
-db_file = 'recipe.sqlite'
+# incorporating different scraping modules
+# change the import statement to change the scraper
+# e.g. import scrapers.nyt as mod
+# e.g. import scrapers.manual as mod
+import scrapers.nyt as mod
+import cleaning
 
 graph_db = Graph(uri, auth=(user, password))
 matcher = NodeMatcher(graph_db)
 
-conn = sqlite3.connect(os.path.join(dirname, db_file))
-c = conn.cursor()
-with conn:
-	c.execute('SELECT * FROM "https://schema.org/Recipe"')
-	rows = c.fetchall()
-	for row in rows:
+def match_label(ingredient, title):
+	matches = requests.get('http://www.ebi.ac.uk/ols/api/search?q=(%s)&ontology=foodon' % ingredient)
+	resJSON = matches.json()
+	if len(resJSON['response']['docs']) > 0:
+		match = resJSON['response']['docs'][0]
+		print(ingredient, 'matched with:', match['label'])
+		return match
+	else:
+		return None
+
+def insert_data(recipe):
+	recipe_id = 0
+	#add recipe, author and source to the graph
+	tx = graph_db.begin()
+	recipeNode = Node("Recipe", name=recipe.title)
+
+	author = matcher.match("Author", name=recipe.author).first()
+	if author == None:
+		author = Node("Author", name=recipe.author)
+		tx.create(author)
+
+	source = matcher.match("Source", url=recipe.source).first()
+	if source == None:
+		source = Node("Source", url=recipe.source)
+		tx.create(source)
+
+	tx.create(recipeNode)
+	auth_relation = Relationship(recipeNode, "hasAuthor", author)
+	source_relation = Relationship(recipeNode, "hasSource", source)
+	tx.create(auth_relation)
+	tx.create(source_relation)
+	tx.commit()
+
+
+	for ingredient in recipe.ingredients:
 		tx = graph_db.begin()
-		recipe = Node("Recipe", name=row[2], index=row[0])
-		author = matcher.match("Author", name=row[1]).first()
-		if author == None:
-			author = Node("Author", name=row[1])
-			tx.create(author)
-		tx.create(recipe)
-		relation = Relationship(recipe, "hasAuthor", author)
+		ingredient = cleaning.clean_ingredient(ingredient)
+		matched_ingredient = match_label(ingredient, recipe.title)
+
+		if matched_ingredient:
+			ingredient = matcher.match("Ingredient", name=matched_ingredient["label"]).first()
+			if ingredient == None:
+				ingredient = Node("Ingredient", name=matched_ingredient["label"])
+				tx.create(ingredient)
+			relation = Relationship(recipeNode, "hasIngredient", ingredient)
+			tx.create(relation)
+		tx.commit()
+
+	for cuisine in recipe.cuisines:
+		tx = graph_db.begin()
+
+		cuisineNode = matcher.match("Cuisine", name=cuisine).first()
+		if cuisineNode == None:
+			cuisineNode = Node("Cuisine", name=cuisine)
+			tx.create(cuisineNode)
+		relation = Relationship(recipeNode, "hasAssociatedCuisine", cuisineNode)
 		tx.create(relation)
 		tx.commit()
-	print('added recipes and authors')
 
-	c.execute('SELECT * FROM "https://schema.org/Ingredient"')
-	rows = c.fetchall()
-	for row in rows:
-		tx = graph_db.begin()
-		ingredient = Node("Ingredient", name=row[3], index=row[0])
-		tx.create(ingredient)
-		tx.commit()
-	print('added ingredients')
+if __name__ == "__main__":
 
-	c.execute('SELECT * FROM "https://schema.org/Recipe/ingredient"')
-	rows = c.fetchall()
-	for index, row in enumerate(rows):
-		tx = graph_db.begin()
+	recipes = mod.scrape()
 
-		recipe = matcher.match("Recipe", index=row[1]).first()
-		ingredient = matcher.match("Ingredient", index=row[2]).first()
+	for index, recipe in enumerate(recipes):
+		print('recipe number', index)
+		insert_data(recipe)
 
-		relation = Relationship(recipe, "hasIngredient", ingredient)
-		tx.create(relation)
-		tx.commit()

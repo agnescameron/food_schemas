@@ -37,3 +37,12 @@ several
 wedges
 taste
 sip
+pieces
+parts
+bottle
+box
+bag
+bunch
+sprig
+¼
+½

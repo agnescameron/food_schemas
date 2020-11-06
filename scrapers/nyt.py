@@ -10,12 +10,17 @@ def scrape():
 
 	for index, file in enumerate(directory):
 		# print(index, file)
-		if index < 1000:
+		if index < 100:
 			d = pq(filename='nyt_recipes/'+file)
 			ingredients = []
 			directions = []
+			cuisines = []
 
 			url = d('meta[property="og:url"]').attr("content")
+
+			cuisine = d('meta[itemProp="recipeCuisine"]').attr("value")
+			if cuisine is not None:
+				cuisines.append(cuisine)
 
 			# print(d)
 			title = d(".recipe-title").text()
@@ -28,7 +33,7 @@ def scrape():
 			for el in d("ol.recipe-steps > li"):
 				directions.append(d(el).text())
 
-			recipe = Recipe(title, ingredients, directions, url, author)
+			recipe = Recipe(title, ingredients, directions, url, author, cuisines)
 			recipes.append(recipe)
 
 
