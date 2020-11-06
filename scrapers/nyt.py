@@ -10,7 +10,7 @@ def scrape():
 
 	for index, file in enumerate(directory):
 		# print(index, file)
-		if index < 100:
+		if index < 1000:
 			d = pq(filename='nyt_recipes/'+file)
 			ingredients = []
 			directions = []
