@@ -10,7 +10,8 @@ import requests
 # change the import statement to change the scraper
 # e.g. import scrapers.nyt as mod
 # e.g. import scrapers.manual as mod
-import scrapers.py_scraper as mod
+import scrapers.nyt as mod
+import cleaning
 
 dirname = os.path.dirname(__file__)
 db_file = 'recipe.sqlite'
@@ -39,6 +40,7 @@ def insert_data(recipe):
 
 
 	for ingredient in recipe.ingredients:
+		ingredient = cleaning.clean_ingredient(ingredient)
 		matched_ingredient = match_label(ingredient, recipe.title)
 
 		if matched_ingredient:
