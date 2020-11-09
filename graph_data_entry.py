@@ -17,6 +17,11 @@ password = 'snacks'
 import scrapers.py_scraper as mod
 import cleaning
 
+with open("corpuses/meats.txt", "r") as am:
+	global meats
+	meats = am.readlines()
+	meats = [i.replace("\n", "") for i in meats] 
+
 def match_label(ingredient, title):
 	matches = requests.get('http://www.ebi.ac.uk/ols/api/search?q=(%s)&ontology=foodon' % ingredient)
 	resJSON = matches.json()
@@ -28,6 +33,7 @@ def match_label(ingredient, title):
 		return None
 
 def insert_data(recipe):
+	global meats
 	recipe_id = 0
 	#add recipe, author and source to the graph
 	tx = graph_db.begin()
@@ -59,7 +65,10 @@ def insert_data(recipe):
 		if matched_ingredient:
 			ingredient = matcher.match("Ingredient", name=matched_ingredient["label"]).first()
 			if ingredient == None:
-				ingredient = Node("Ingredient", name=matched_ingredient["label"])
+				meat = False
+				for word in meats:
+					if word in matched_ingredient["label"].lower(): meat = True
+				ingredient = Node("Ingredient", name=matched_ingredient["label"], containsMeat=meat)
 				tx.create(ingredient)
 			relation = Relationship(recipeNode, "hasIngredient", ingredient)
 			tx.create(relation)
