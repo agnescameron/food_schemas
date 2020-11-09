@@ -14,11 +14,8 @@ password = 'snacks'
 # change the import statement to change the scraper
 # e.g. import scrapers.nyt as mod
 # e.g. import scrapers.manual as mod
-import scrapers.nyt as mod
+import scrapers.py_scraper as mod
 import cleaning
-
-graph_db = Graph(uri, auth=(user, password))
-matcher = NodeMatcher(graph_db)
 
 def match_label(ingredient, title):
 	matches = requests.get('http://www.ebi.ac.uk/ols/api/search?q=(%s)&ontology=foodon' % ingredient)
@@ -80,6 +77,11 @@ def insert_data(recipe):
 		tx.commit()
 
 if __name__ == "__main__":
+
+
+	graph_db = Graph(uri, auth=(user, password))
+	graph_db.delete_all()
+	matcher = NodeMatcher(graph_db)
 
 	recipes = mod.scrape()
 

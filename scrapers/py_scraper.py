@@ -1,16 +1,14 @@
 from recipe_scrapers import scrape_me
 from scrapers.recipe import Recipe
 
-urls = [
-	'https://www.seriouseats.com/recipes/2016/05/okonomiyaki-japanese-pancake-cabbage-recipe.html',
-	'https://www.chopstickchronicles.com/osaka-okonomiyaki/',
-	'https://www.justonecookbook.com/okonomiyaki/',
-	'https://www.thespruceeats.com/japanese-okonomiyaki-recipe-2031053',
-	'https://www.yummly.com/recipe/Japanese-pancakes-_okonomiyaki_-306541?prm-v1',
-	'https://www.food.com/recipe/okonomiyaki-532674'
-]
+
+with open("sources/borschts.txt", "r") as pr:
+	global urls
+	urls = pr.readlines()
+	urls = [i.replace("\n", "") for i in urls] 
 
 def scrape():
+	global urls
 	recipes = []
 	for url in urls:
 		# Q: What if the recipe site I want to extract information from is not listed below?

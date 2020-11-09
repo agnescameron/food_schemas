@@ -19,14 +19,18 @@ with open("corpuses/processes.txt", "r") as pr:
 
 def clean_ingredient(ingredient):
 	global amounts, processes
+	print('cleaning', ingredient)
 
 	ingredient = ingredient.lower()
 
 	#array of words to remove
 	remove = amounts + processes
 
+	#get rid of digits and punctuation
+	ingredient = re.sub(r'[^a-zA-Z\s]', '', ingredient)
+
 	for word in remove:
-		ingredient = re.sub(word, '', ingredient)
+		ingredient = re.sub(rf"(\s|^){word}(\s|$)", '', ingredient)
 
 	frag = nlp(ingredient)
 	[token.text for token in frag]
@@ -36,4 +40,5 @@ def clean_ingredient(ingredient):
 		if token.tag_ in ['NNP', 'NNS', 'NN', 'JJ']:
 			ing = ing + token.text + ' '
 
+	print('cleaned', ing)
 	return ing

@@ -4,13 +4,14 @@ import requests
 import re
 from recipe_scrapers import scrape_me
 
-urls = [
-	'https://www.archanaskitchen.com/karate-batate-puddi-sagale-recipe-konkani-style-bitter-gourd-and-potato-curry',
-	'https://www.rotinrice.com/fuzzy-melon-and-glass-vermicelli-stir-fry-daai-ji-maa-gaa-neoi-%E5%A4%A7%E5%A7%A8%E5%AA%BD%E5%AB%81%E5%A5%B3/',
-	'https://www.ruchiskitchen.com/punjabi-bharwan-karela-recipe/'
-]
+
+with open("sources/borschts.txt", "r") as pr:
+	global urls
+	urls = pr.readlines()
+	urls = [i.replace("\n", "") for i in urls] 
 
 def scrape():
+	global urls
 	recipes = []
 
 	for url in urls:
