@@ -89,7 +89,7 @@ if __name__ == "__main__":
 		with conn:
 			c.execute('''CREATE TABLE IF NOT EXISTS "https://schema.org/Recipe" ( id INTEGER PRIMARY KEY, "https://schema.org/Recipe/author" text not null, "https://schema.org/Recipe/name" text not null, "https://schema.org/Recipe/source" text not null )''')
 			c.execute('''CREATE TABLE IF NOT EXISTS "https://schema.org/Ingredient" ( id INTEGER PRIMARY KEY, "https://schema.org/Ingredient/description" text, "https://schema.org/Ingredient/id" text not null, "https://schema.org/Ingredient/name" text not null )''')
-			c.execute('''CREATE TABLE IF NOT EXISTS "https://schema.org/Recipe/ingredient" ( id INTEGER PRIMARY KEY, "http://underlay.org/ns/source" integer not null references "https://schema.org/Recipe", "http://underlay.org/ns/target" integer not null references "https://schema.org/Ingredient" )''')
+			c.execute('''CREATE TABLE IF NOT EXISTS "https://schema.org/Recipe/Ingredient" ( id INTEGER PRIMARY KEY, "http://underlay.org/ns/source" integer not null references "https://schema.org/Recipe", "http://underlay.org/ns/target" integer not null references "https://schema.org/Ingredient" )''')
 			c.execute("PRAGMA foreign_keys = ON;")
 	except sqlite3.Error as e:
 		print(e)

@@ -37,16 +37,22 @@ def insert_data(recipe):
 	recipe_id = 0
 	#add recipe, author and source to the graph
 	tx = graph_db.begin()
-	recipeNode = Node("Recipe", name=recipe.title)
+	recipeNode = matcher.match("http://schema.org/Recipe", wasDerivedFromURL=recipe.source).first()
+	if recipeNode == None:
+		recipeNode = Node("http://schema.org/Recipe", name=recipe.title, wasDerivedFromURL=recipe.source)
+		print('source is', recipe.source)
 
-	author = matcher.match("Author", name=recipe.author).first()
+	author = matcher.match("http://schema.org/Author", name=recipe.author).first()
 	if author == None:
-		author = Node("Author", name=recipe.author)
+		author = Node("http://schema.org/Author", name=recipe.author)
 		tx.create(author)
 
-	source = matcher.match("Source", url=recipe.source).first()
+	rootURL = re.match(r'http?s:\/\/([a-z]+\.){1,}[a-z]+', recipe.source)[0]
+	print(rootURL)
+
+	source = matcher.match("http://schema.org/Webpage", url=rootURL).first()
 	if source == None:
-		source = Node("Source", url=recipe.source)
+		source = Node("http://schema.org/Webpage", url=rootURL)
 		tx.create(source)
 
 	tx.create(recipeNode)
@@ -63,12 +69,12 @@ def insert_data(recipe):
 		matched_ingredient = match_label(ingredient, recipe.title)
 
 		if matched_ingredient:
-			ingredient = matcher.match("Ingredient", name=matched_ingredient["label"]).first()
+			ingredient = matcher.match("http://schema.org/Ingredient", name=matched_ingredient["label"]).first()
 			if ingredient == None:
 				meat = False
 				for word in meats:
 					if word in matched_ingredient["label"].lower(): meat = True
-				ingredient = Node("Ingredient", name=matched_ingredient["label"], containsMeat=meat)
+				ingredient = Node("http://schema.org/Ingredient", name=matched_ingredient["label"], containsMeat=meat)
 				tx.create(ingredient)
 			relation = Relationship(recipeNode, "hasIngredient", ingredient)
 			tx.create(relation)
@@ -77,9 +83,9 @@ def insert_data(recipe):
 	for cuisine in recipe.cuisines:
 		tx = graph_db.begin()
 
-		cuisineNode = matcher.match("Cuisine", name=cuisine).first()
+		cuisineNode = matcher.match("http://schema.org/Cuisine", name=cuisine).first()
 		if cuisineNode == None:
-			cuisineNode = Node("Cuisine", name=cuisine)
+			cuisineNode = Node("http://schema.org/Cuisine", name=cuisine)
 			tx.create(cuisineNode)
 		relation = Relationship(recipeNode, "hasAssociatedCuisine", cuisineNode)
 		tx.create(relation)
