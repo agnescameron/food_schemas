@@ -1,5 +1,5 @@
 from pyquery import PyQuery as pq
-from scrapers.recipe import Recipe
+from classes.recipe import Recipe
 import re
 import os
 
@@ -10,17 +10,21 @@ def scrape():
 
 	for index, file in enumerate(directory):
 		# print(index, file)
-		if index < 100:
+		if index < 200:
 			d = pq(filename='nyt_recipes/'+file)
 			ingredients = []
 			directions = []
-			cuisines = []
+			tags = []
 
 			url = d('meta[property="og:url"]').attr("content")
 
-			cuisine = d('meta[itemProp="recipeCuisine"]').attr("value")
-			if cuisine is not None:
-				cuisines.append(cuisine)
+			cuisineTag = d('meta[itemProp="recipeCuisine"]').attr("value")
+			if cuisineTag is not None:
+				tags.append(cuisineTag)
+
+			for el in d('div.tags-nutrition-container a'):
+				print(d(el).text())
+				tags.append(d(el).text())
 
 			# print(d)
 			title = d(".recipe-title").text()
@@ -33,7 +37,7 @@ def scrape():
 			for el in d("ol.recipe-steps > li"):
 				directions.append(d(el).text())
 
-			recipe = Recipe(title, ingredients, directions, url, author, cuisines)
+			recipe = Recipe(title, ingredients, directions, url, author, tags)
 			recipes.append(recipe)
 
 

@@ -1,30 +1,50 @@
-namespace = "https://schema.org/"
+namespace = "http://example.com/"
 
-[shapes.Recipe]
+[classes.Recipe]
 name = "string"
 wasDerivedFromURL = "string"
-[shapes.Recipe.hasAuthor]
+[classes.Recipe.hasAuthor]
 kind = "reference"
 label = "Author"
 cardinality = "optional"
-[shapes.Recipe.hasSource]
+[classes.Recipe.hasSource]
 kind = "reference"
-label = "Source"
+label = "Webpage"
 cardinality = "optional"
-[shapes.Recipe.hasIngredient]
+[classes.Recipe.hasIngredient]
+kind = "reference"
+label = "Ingredient"
+cardinality = "any"
+[classes.Recipe.hasAssociatedTags]
+kind = "reference"
+label = "Tag"
+cardinality = "any"
+
+[classes.Ingredient]
+name = "string"
+containsMeat = "boolean"
+containsNuts = "boolean"
+[classes.Ingredient.hasSubstitution]
+kind = "reference"
+label = "Substitution"
+cardinality = "any"
+
+[classes.Substitution]
+[classes.Substitution.inContext]
+kind = "reference"
+label = "Tag"
+cardinality = "optional"
+[classes.Substitution.substitutionIngredient]
 kind = "reference"
 label = "Ingredient"
 cardinality = "any"
 
-[shapes.Ingredient]
-name = "string"
-containsMeat = "boolean"
-
-[shapes.Webpage]
+[classes.Webpage]
 url = "string"
 
-[shapes.Author]
+[classes.Author]
 name = "string"
 
-[shapes.Cuisine]
+[classes.Tag]
 name = "string"
+hasType = "string"

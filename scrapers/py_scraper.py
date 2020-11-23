@@ -1,5 +1,5 @@
 from recipe_scrapers import scrape_me
-from scrapers.recipe import Recipe
+from classes.recipe import Recipe
 
 
 with open("sources/borschts.txt", "r") as pr:

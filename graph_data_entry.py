@@ -80,14 +80,14 @@ def insert_data(recipe):
 			tx.create(relation)
 		tx.commit()
 
-	for cuisine in recipe.cuisines:
+	for tag in recipe.tags:
 		tx = graph_db.begin()
 
-		cuisineNode = matcher.match("http://schema.org/Cuisine", name=cuisine).first()
-		if cuisineNode == None:
-			cuisineNode = Node("http://schema.org/Cuisine", name=cuisine)
-			tx.create(cuisineNode)
-		relation = Relationship(recipeNode, "hasAssociatedCuisine", cuisineNode)
+		tagNode = matcher.match("http://schema.org/Tag", name=tag).first()
+		if tagNode == None:
+			tagNode = Node("http://schema.org/Tag", name=tag)
+			tx.create(tagNode)
+		relation = Relationship(recipeNode, "hasAssociatedTag", tagNode)
 		tx.create(relation)
 		tx.commit()
 
@@ -95,7 +95,7 @@ if __name__ == "__main__":
 
 
 	graph_db = Graph(uri, auth=(user, password))
-	graph_db.delete_all()
+	# graph_db.delete_all()
 	matcher = NodeMatcher(graph_db)
 
 	recipes = mod.scrape()

@@ -1,19 +1,43 @@
-## Food Schema Composer
+## Recipe Schema Composer
 
 This script takes the output of a recipe scraper, composes it into a schema using the [FoodON food ontology](https://github.com/FoodOntology/foodon) and inserts it into a sqlite database that satisfies the schema specified in [references/](https://github.com/FoodOntology/foodon). This can then be serialised into assertions using the [io-sqlite](https://github.com/underlay/io-sqlite) module. 
 
 So long as the recipe scraper module is structured correctly (see instructions below), this script will run with any arbitrary scraper.
 
-### Installation
+### Setup
 
 This script needs Python 3.6+ to run. To install requirements and run script, do:
 
 ```
 $ pip3 install requirements.txt
-$ python3 data_entry.py
 ```
 
 (or `pip` and `python` respectively if python3 is your default installation)
+
+To run the graph data entry component, you first need to be running a local [Neo4j](https://neo4j.com/) instance. Create a new, empty graph database, take a note of the password, and start it running.
+
+Modify the following lines in in `graph_data_entry.py` to fit your local installation:
+
+```
+uri = 'bolt://localhost:7687'
+user = 'neo4j'
+password = <password>
+```
+
+To run the script, then do:
+
+```
+$ python3 graph_data_entry.py
+```
+
+If you'd just like to run the SQLite data entry, then, after installing the required packages just run:
+
+```
+$ python3 data_entry.py
+```
+Note that the schema in this file is currently somewhat out of sync with the example schema adhered to by the graph data entry. Will update this soon.
+
+NB -- you can also convert sqlite to Neo4j using the `convert_sqlite_graph.py`, though this will also be a bit out of step with the current schema.
 
 ### Structure
 

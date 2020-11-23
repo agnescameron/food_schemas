@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-from scrapers.recipe import Recipe
+from classes.recipe import Recipe
 import requests
 import re
 from recipe_scrapers import scrape_me
