@@ -3,3 +3,5 @@ requests==2.24.0
 toml==0.10.1
 pyquery==1.4.1
 beautifulsoup4==4.9.3
+nltk==3.5.0
+spacy==2.3.2

@@ -12,3 +12,6 @@ shoulder
 sausage
 salami
 kielbasa
+steak
+turkey
+lamb

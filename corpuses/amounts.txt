@@ -62,3 +62,9 @@ sprig
 chunk
 piece
 optional
+dash
+pint
+pints
+gallon
+dozen
+pinch

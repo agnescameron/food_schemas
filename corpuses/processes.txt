@@ -23,3 +23,6 @@ scaled
 deboned
 cut into sections
 broken
+ground
+softened
+beaten
