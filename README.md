@@ -33,7 +33,7 @@ $ python3 graph_data_entry.py
 If you'd just like to run the SQLite data entry, then, after installing the required packages just run:
 
 ```
-$ python3 data_entry.py
+$ python3 sqlite_data_entry.py
 ```
 Note that the schema in this file is currently somewhat out of sync with the example schema adhered to by the graph data entry. Will update this soon.
 
@@ -41,7 +41,7 @@ NB -- you can also convert sqlite to Neo4j using the `convert_sqlite_graph.py`, 
 
 ### Structure
 
-* `data_entry.py` -- takes in an array of Recipe objects and outputs, matches ingredients to FoodON equivalents (this could be improved) and generates a database called `recipe.sqlite`
+* `sqlite_data_entry.py` -- takes in an array of Recipe objects and outputs, matches ingredients to FoodON equivalents (this could be improved) and generates a database called `recipe.sqlite`
 * `references/` -- holds the reference schema, which was used to generate the database template
 * `scrapers/` -- holds the scraping modules and the template class for Recipes (`recipe.py`)
 
@@ -51,7 +51,7 @@ Existing scraping modules:
 * `scrapers/manual.py` -- was the first attempt at a scraper using beautiful soup and regular expressions. Not very effective, but could be improved and might be able to get some sites where py_scraper doesn't work
 * `scrapers/nyt.py` -- gets recipes from the scraped nyt archive -- you need a .zip of this from me for this to work, unzip in top level directory
 
-To use a different scraper module, change line 13 of the file `data_entry.py` (by default it's set to `py_scraper`, which right now is set up to scrape okonomiyaki recipes):
+To use a different scraper module, change line 13 of the file `sqlite_data_entry.py` (by default it's set to `py_scraper`, which right now is set up to scrape okonomiyaki recipes):
 
 ```
 import scrapers.{module-you-want} as mod

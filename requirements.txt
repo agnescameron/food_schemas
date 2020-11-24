@@ -5,3 +5,4 @@ pyquery==1.4.1
 beautifulsoup4==4.9.3
 nltk==3.5.0
 spacy==2.3.2
+py2neo==2020.1.1
