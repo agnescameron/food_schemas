@@ -31,7 +31,6 @@ several
 many
 a few
 plus more
-cloves
 clove
 segments
 segment
@@ -68,3 +67,13 @@ pints
 gallon
 dozen
 pinch
+head
+g
+handfuls
+handful
+whole
+lbs
+l
+litres
+4l
+.7
