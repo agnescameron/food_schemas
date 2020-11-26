@@ -26,11 +26,12 @@ def clean_ingredient(ingredient):
 	#array of words to remove
 	remove = amounts + processes
 
-	#get rid of digits and punctuation
+	#get rid of digits and punctuation and bracket
+	ingredient = re.sub(r"[\(\[].*?[\)\]]", "", ingredient)
 	ingredient = re.sub(r'[^a-zA-Z\s]', '', ingredient)
 
 	for word in remove:
-		ingredient = re.sub(rf"(\s|^){word}(\s|$)", '', ingredient)
+		ingredient = re.sub(rf"(\s|^){word}(\s|$)", ' ', ingredient)
 
 	frag = nlp(ingredient)
 	[token.text for token in frag]
