@@ -77,3 +77,6 @@ l
 litres
 4l
 .7
+lot
+plus
+young
