@@ -40,7 +40,7 @@ def clean_ingredient(ingredient):
 	for token in frag:
 		# if token.tag_ in ['NNP', 'NNS', 'NN', 'JJ']:
 		if token.pos_  not in ['VERB', 'NUM', 'PUNCT', 'ADP']:
-		   if not token.is_stop and not token.is_punct:
+		   if not token.is_stop:
 				  ing = ing + token.text + ' '   
                
 	print('cleaned', ing)
