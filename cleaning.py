@@ -29,7 +29,7 @@ def clean_ingredient(ingredient):
 	#get rid of digits and punctuation and bracket
 	ingredient = re.sub(r"[\(\[].*?[\)\]]", "", ingredient)
 	ingredient = re.sub(r'[^a-zA-Z\s]', '', ingredient)
-
+    
 	for word in remove:
 		ingredient = re.sub(rf"(\s|^){word}(\s|$)", ' ', ingredient)
 
@@ -38,8 +38,10 @@ def clean_ingredient(ingredient):
 
 	ing = ''
 	for token in frag:
-		if token.tag_ in ['NNP', 'NNS', 'NN', 'JJ']:
-			ing = ing + token.text + ' '
-
+		# if token.tag_ in ['NNP', 'NNS', 'NN', 'JJ']:
+		if token.pos_  not in ['VERB', 'NUM', 'PUNCT', 'ADP']:
+		   if not token.is_stop:
+				  ing = ing + token.text + ' '   
+               
 	print('cleaned', ing)
 	return ing
