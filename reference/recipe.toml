@@ -22,22 +22,7 @@ cardinality = "any"
 
 [classes.Ingredient]
 name = "string"
-containsMeat = "boolean"
-containsNuts = "boolean"
-[classes.Ingredient.hasSubstitution]
-kind = "reference"
-label = "Substitution"
-cardinality = "any"
-
-[classes.Substitution]
-[classes.Substitution.inContext]
-kind = "reference"
-label = "Tag"
-cardinality = "optional"
-[classes.Substitution.substitutionIngredient]
-kind = "reference"
-label = "Ingredient"
-cardinality = "any"
+url = "string"
 
 [classes.Webpage]
 url = "string"
@@ -47,4 +32,3 @@ name = "string"
 
 [classes.Tag]
 name = "string"
-hasType = "string"
