@@ -24,7 +24,11 @@ def scrape():
 
 		# look for a div where the classname contains ingredients and get the list from there
 		ingredient_container = soup.find('div', {'class': re.compile(r'(?<!direction.)ingredient(?!.*(direction|instruction|steps))')})
-		ingredients = ingredient_container.find_all('li')
+		ingredients = []
+		try:
+			ingredients = ingredient_container.find_all('li')
+		except:
+			print("could not find ingredients")
 
 		for index, ingredient in enumerate(ingredients):
 			ingredient_name = ingredient.find('span', {'class': re.compile(r'name|Name|ingredient(?!.*(unit|amount))')})
@@ -35,7 +39,11 @@ def scrape():
 
 		#look for a div where the classname contains ingredients and get the list from there
 		direction_container = soup.find('div', {'class': re.compile(r'(?<!ingredient.)direction|instruction|steps(?!.*(ingredient|description))')})
-		directions = direction_container.find_all('li')
+		directions = []
+		try:
+			directions = direction_container.find_all('li')
+		except:
+			print("could not find directions")
 
 		for direction in directions:
 			direction = direction.text.strip()

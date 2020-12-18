@@ -14,7 +14,7 @@ password = 'snacks'
 # change the import statement to change the scraper
 # e.g. import scrapers.nyt as mod
 # e.g. import scrapers.manual as mod
-import scrapers.py_scraper as mod
+import scrapers.manual as mod
 import cleaning
 
 with open("corpuses/meats.txt", "r") as am:
