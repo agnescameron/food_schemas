@@ -28,7 +28,7 @@ def scrape():
 		try:
 			ingredients = ingredient_container.find_all('li')
 		except:
-			print('steady')
+			print('could not find ingredient')
    
 		for index, ingredient in enumerate(ingredients):
 			ingredient_name = ingredient.find('span', {'class': re.compile(r'name|Name|ingredient(?!.*(unit|amount))')})
@@ -44,7 +44,7 @@ def scrape():
 		try:
 			directions = direction_container.find_all('li')
 		except:
-			print('i no dey')
+			print('could not find directions')
    
 		for direction in directions:
 			direction = direction.text.strip()
