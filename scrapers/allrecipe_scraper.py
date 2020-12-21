@@ -4,13 +4,14 @@ from classes.recipe import Recipe
 import requests
 import re
 
-urls = [
-	'https://www.allrecipes.com/recipe/262725/polish-borscht/',
-    'https://www.allrecipes.com/recipe/84450/ukrainian-red-borscht-soup/'
-	
-]
 
+with open("sources/allrecipe.txt", "r") as pr:
+    global urls
+    urls = pr.readlines()
+    urls = [i.replace("\n", "") for i in urls] 
+    
 def scrape():
+	global urls
 	recipes = []
 
 	for url in urls:
