@@ -1,0 +1,459 @@
+"_id","_labels","containsMeat","name","url","wasDerivedFromURL","_start","_end","_type"
+"0",":http://schema.org/Author","","","","",,,
+"1",":http://schema.org/Webpage","","","https://www.allrecipes.com","",,,
+"2",":http://schema.org/Recipe","","Ukrainian Red Borscht Soup","","https://www.allrecipes.com/recipe/84450/ukrainian-red-borscht-soup/",,,
+"3",":http://schema.org/Ingredient","true","pork sausage","","",,,
+"4",":http://schema.org/Ingredient","false","07080 - root and tuber vegetables (excluding starchy- and sugar-) (efsa foodex2)","","",,,
+"5",":http://schema.org/Ingredient","false","07120 - carrots (efsa foodex2)","","",,,
+"6",":http://schema.org/Ingredient","false","baking powder","","",,,
+"7",":http://schema.org/Ingredient","false","vegetable oil","","",,,
+"8",":http://schema.org/Ingredient","false","onion (whole, raw)","","",,,
+"9",":http://schema.org/Ingredient","false","liver paste","","",,,
+"10",":http://schema.org/Ingredient","false","soda water","","",,,
+"11",":http://schema.org/Ingredient","false","cabbage (whole)","","",,,
+"12",":http://schema.org/Ingredient","false","06330 - tomatoes (efsa foodex2)","","",,,
+"13",":http://schema.org/Ingredient","false","clove food product","","",,,
+"14",":http://schema.org/Ingredient","false","salt and pepper spray","","",,,
+"15",":http://schema.org/Ingredient","false","white sugar","","",,,
+"16",":http://schema.org/Ingredient","false","sour cream","","",,,
+"17",":http://schema.org/Ingredient","false","parsley leaf","","",,,
+"18",":http://schema.org/Recipe","","Polish Borscht","","https://www.allrecipes.com/recipe/262725/polish-borscht/",,,
+"19",":http://schema.org/Ingredient","false","08070 - other wild mushrooms (efsa foodex2)","","",,,
+"20",":http://schema.org/Ingredient","false","05790 - onions (efsa foodex2)","","",,,
+"21",":http://schema.org/Ingredient","false","allspice","","",,,
+"22",":http://schema.org/Ingredient","false","bay plant","","",,,
+"23",":http://schema.org/Ingredient","false","black or white pepper product","","",,,
+"24",":http://schema.org/Ingredient","false","lemon (whole, raw)","","",,,
+"25",":http://schema.org/Recipe","","Yukon Cornelius Pull-Apart Cupcake Cake","","https://www.allrecipes.com/recipe/277690/yukon-cornelius-pull-apart-cupcake-cake/",,,
+"26",":http://schema.org/Ingredient","true","graham flour","","",,,
+"27",":http://schema.org/Ingredient","false","cocoa","","",,,
+"28",":http://schema.org/Ingredient","false","baking soda product","","",,,
+"29",":http://schema.org/Ingredient","false","salt","","",,,
+"30",":http://schema.org/Ingredient","false","brown sugar","","",,,
+"31",":http://schema.org/Ingredient","false","butter (unsalted)","","",,,
+"32",":http://schema.org/Ingredient","false","50132500 - eggs/eggs substitutes (gs1 gpc)","","",,,
+"33",":http://schema.org/Ingredient","false","vanilla bean extract","","",,,
+"34",":http://schema.org/Ingredient","false","coffee (liquid drink)","","",,,
+"35",":http://schema.org/Ingredient","false","white chocolate","","",,,
+"36",":http://schema.org/Ingredient","false","mammalian heavy cream (36%+)","","",,,
+"37",":http://schema.org/Ingredient","false","peppermint","","",,,
+"38",":http://schema.org/Ingredient","false","peppermint patty","","",,,
+"39",":http://schema.org/Ingredient","false","sugar cane (powdered)","","",,,
+"40",":http://schema.org/Ingredient","false","Food Ontology","","",,,
+"41",":http://schema.org/Ingredient","false","red snapper food product","","",,,
+"42",":http://schema.org/Ingredient","false","30510 - foamed sugar products (marshmallows) (efsa foodex2)","","",,,
+"43",":http://schema.org/Ingredient","false","dark chocolate","","",,,
+"44",":http://schema.org/Ingredient","false","10000116 - tea - bags/loose (gs1 gpc)","","",,,
+"45",":http://schema.org/Ingredient","false","salmon (tips and tails, raw)","","",,,
+"46",":http://schema.org/Ingredient","false","star fruit food product","","",,,
+"47",":http://schema.org/Recipe","","Cranberry Salad","","https://www.allrecipes.com/recipe/212467/cranberry-salad/",,,
+"48",":http://schema.org/Ingredient","false","15950 - cranberries (efsa foodex2)","","",,,
+"49",":http://schema.org/Ingredient","false","14730 - apples (efsa foodex2)","","",,,
+"50",":http://schema.org/Ingredient","false","11500 - pecans (efsa foodex2)","","",,,
+"51",":http://schema.org/Ingredient","false","vanilla bean food product","","",,,
+"52",":http://schema.org/Recipe","","Cardamom Maple Salmon","","https://www.allrecipes.com/recipe/237297/cardamom-maple-salmon/",,,
+"53",":http://schema.org/Ingredient","false","paprika","","",,,
+"54",":http://schema.org/Ingredient","false","green cardamom","","",,,
+"55",":http://schema.org/Ingredient","false","coriander (whole)","","",,,
+"56",":http://schema.org/Ingredient","false","grape seed oil (edible)","","",,,
+"57",":http://schema.org/Ingredient","false","maple syrup","","",,,
+"58",":http://schema.org/Ingredient","false","fillet","","",,,
+"59",":http://schema.org/Recipe","","Al's Burmese Chicken Curry","","https://www.allrecipes.com/recipe/276989/als-burmese-chicken-curry/",,,
+"60",":http://schema.org/Ingredient","false","butter","","",,,
+"61",":http://schema.org/Ingredient","false","05850 - shallots (efsa foodex2)","","",,,
+"62",":http://schema.org/Ingredient","false","curry paste","","",,,
+"63",":http://schema.org/Ingredient","false","curry powder","","",,,
+"64",":http://schema.org/Ingredient","false","chili pepper","","",,,
+"65",":http://schema.org/Ingredient","true","chicken","","",,,
+"66",":http://schema.org/Ingredient","false","09110 - lemongrass (efsa foodex2)","","",,,
+"67",":http://schema.org/Ingredient","false","Capsicum","","",,,
+"68",":http://schema.org/Ingredient","false","09030 - kaffir lime leaves (efsa foodex2)","","",,,
+"69",":http://schema.org/Ingredient","true","fish sauce","","",,,
+"70",":http://schema.org/Ingredient","false","milk","","",,,
+"71",":http://schema.org/Ingredient","false","08370 - coriander leaves (efsa foodex2)","","",,,
+"72",":http://schema.org/Recipe","","Low Carb Turkey-Stuffed Peppers","","https://www.allrecipes.com/recipe/276832/low-carb-turkey-stuffed-peppers/",,,
+"73",":http://schema.org/Ingredient","false","cooking spray (nonstick)","","",,,
+"74",":http://schema.org/Ingredient","false","olive oil","","",,,
+"75",":http://schema.org/Ingredient","true","turkey (whole, raw)","","",,,
+"76",":http://schema.org/Ingredient","false","jalapeno pepper (whole)","","",,,
+"77",":http://schema.org/Ingredient","false","cauliflower (whole)","","",,,
+"78",":http://schema.org/Ingredient","false","sauce","","",,,
+"79",":http://schema.org/Ingredient","false","chili paste","","",,,
+"80",":http://schema.org/Ingredient","false","roll (seeded)","","",,,
+"81",":http://schema.org/Ingredient","false","stracchino cheese","","",,,
+"82",":http://schema.org/Ingredient","false","aluminum foil wrapper","","",,,
+"83",":http://schema.org/Ingredient","false","jalapeno jelly","","",,,
+"84",":http://schema.org/Recipe","","Perfect Lasagna Bolognese","","https://www.allrecipes.com/recipe/254700/perfect-lasagna-bolognese/",,,
+"85",":http://schema.org/Ingredient","false","pancetta","","",,,
+"86",":http://schema.org/Ingredient","false","celery seed","","",,,
+"87",":http://schema.org/Ingredient","false","divided into pieces, thickness <0.3 cm.","","",,,
+"88",":http://schema.org/Ingredient","true","pork shoulder (raw)","","",,,
+"89",":http://schema.org/Ingredient","false","Riesling wine","","",,,
+"90",":http://schema.org/Ingredient","false","vegetable puree","","",,,
+"91",":http://schema.org/Ingredient","false","tomato paste","","",,,
+"92",":http://schema.org/Ingredient","true","beef broth","","",,,
+"93",":http://schema.org/Ingredient","false","bay leaf (dried)","","",,,
+"94",":http://schema.org/Ingredient","false","nutmeg seed (ground)","","",,,
+"95",":http://schema.org/Ingredient","false","lasagna noodle","","",,,
+"96",":http://schema.org/Ingredient","false","parmesan cheese","","",,,
+"97",":http://schema.org/Recipe","","Turkey Carcass Soup","","https://www.allrecipes.com/recipe/218804/turkey-carcass-soup/",,,
+"98",":http://schema.org/Ingredient","false","potatoes gratiné (dish)","","",,,
+"99",":http://schema.org/Ingredient","false","barley grain (whole, raw)","","",,,
+"100",":http://schema.org/Ingredient","false","worcestershire sauce","","",,,
+"101",":http://schema.org/Ingredient","false","basil food product","","",,,
+"102",":http://schema.org/Ingredient","false","poultry seasoning (dry)","","",,,
+"103",":http://schema.org/Ingredient","false","thyme food product","","",,,
+"104",":http://schema.org/Recipe","","West African-Style Peanut Stew with Chicken","","https://www.allrecipes.com/recipe/276720/west-african-style-peanut-stew-with-chicken/",,,
+"105",":http://schema.org/Ingredient","true","chicken breast (skinless, boneless)","","",,,
+"106",":http://schema.org/Ingredient","false","peanut oil","","",,,
+"107",":http://schema.org/Ingredient","false","ginger root","","",,,
+"108",":http://schema.org/Ingredient","false","cumin seed (whole, dried)","","",,,
+"109",":http://schema.org/Ingredient","false","turmeric extract","","",,,
+"110",":http://schema.org/Ingredient","false","cinnamon","","",,,
+"111",":http://schema.org/Ingredient","true","chicken broth","","",,,
+"112",":http://schema.org/Ingredient","false","sweet potato (whole)","","",,,
+"113",":http://schema.org/Ingredient","false","collard plant","","",,,
+"114",":http://schema.org/Ingredient","false","bell pepper food product","","",,,
+"115",":http://schema.org/Ingredient","false","peanut butter","","",,,
+"116",":http://schema.org/Ingredient","false","11810 - peanuts (efsa foodex2)","","",,,
+"117",":http://schema.org/Recipe","","Slow Cooker Low-Carb Santa Fe Chicken","","https://www.allrecipes.com/recipe/241828/slow-cooker-low-carb-santa-fe-chicken/",,,
+"118",":http://schema.org/Ingredient","false","baked beans (dish)","","",,,
+"119",":http://schema.org/Ingredient","false","10006192 - flat sweet peppers (tomato peppers) (gs1 gpc)","","",,,
+"120",":http://schema.org/Ingredient","false","corn (roasted)","","",,,
+"121",":http://schema.org/Ingredient","false","scallion food product","","",,,
+"122",":http://schema.org/Ingredient","false","garlic powder","","",,,
+"123",":http://schema.org/Ingredient","false","onion powder","","",,,
+"124",":http://schema.org/Ingredient","false","cayenne pepper (dried)","","",,,
+"125",":http://schema.org/Recipe","","Bren's Italian Meatballs","","https://www.allrecipes.com/recipe/247370/brens-italian-meatballs/",,,
+"126",":http://schema.org/Ingredient","false","raisin bread","","",,,
+"127",":http://schema.org/Ingredient","false","romano cheese (pecorino-style)","","",,,
+"128",":http://schema.org/Ingredient","false","egg or egg component","","",,,
+"129",":http://schema.org/Ingredient","true","beef (raw, lean)","","",,,
+"130",":http://schema.org/Recipe","","Campfire Pepperoni Pizza","","https://www.allrecipes.com/recipe/215041/campfire-pepperoni-pizza/",,,
+"131",":http://schema.org/Ingredient","false","wheat dough (refrigerated)","","",,,
+"132",":http://schema.org/Ingredient","false","pizza sauce","","",,,
+"133",":http://schema.org/Ingredient","false","mozzarella cheese","","",,,
+"134",":http://schema.org/Ingredient","false","pepperoni","","",,,
+"135",":http://schema.org/Recipe","","True Cheeseburger Pizza","","https://www.allrecipes.com/recipe/231771/true-cheeseburger-pizza/",,,
+"136",":http://schema.org/Ingredient","true","beef chuck (roast cooked)","","",,,
+"137",":http://schema.org/Ingredient","false","tomato catsup","","",,,
+"138",":http://schema.org/Ingredient","false","mustard food product","","",,,
+"139",":http://schema.org/Ingredient","false","pizza crust","","",,,
+"140",":http://schema.org/Ingredient","false","cheddar cheese (sharp)","","",,,
+"141",":http://schema.org/Ingredient","false","dill pickle","","",,,
+"142",":http://schema.org/Ingredient","false","lettuce leaf (anatomical)","","",,,
+"143",":http://schema.org/Recipe","","Chicken Lemon Linguine","","https://www.allrecipes.com/recipe/240952/chicken-lemon-linguine/",,,
+"144",":http://schema.org/Ingredient","true","chicken-flavored bouillon cube","","",,,
+"145",":http://schema.org/Ingredient","false","oregano (ground)","","",,,
+"146",":http://schema.org/Ingredient","false","tea extract (cold-water soluble)","","",,,
+"147",":http://schema.org/Ingredient","false","cornstarch (artificially flavored and colored)","","",,,
+"148",":http://schema.org/Ingredient","false","linguine","","",,,
+"149",":http://schema.org/Ingredient","false","lemon juice","","",,,
+"150",":http://schema.org/Ingredient","false","lemon zest","","",,,
+"151",":http://schema.org/Recipe","","Honey-Mustard Chicken with Roasted Vegetables","","https://www.allrecipes.com/recipe/241559/honey-mustard-chicken-with-roasted-vegetables/",,,
+"152",":http://schema.org/Ingredient","false","butternut (whole, raw)","","",,,
+"153",":http://schema.org/Ingredient","false","parsnip (whole, raw)","","",,,
+"154",":http://schema.org/Ingredient","false","red onion (whole)","","",,,
+"155",":http://schema.org/Ingredient","false","rosemary food product","","",,,
+"156",":http://schema.org/Ingredient","false","40590 - sea salt (efsa foodex2)","","",,,
+"157",":http://schema.org/Ingredient","false","white wine","","",,,
+"158",":http://schema.org/Ingredient","false","honey","","",,,
+"159",":http://schema.org/Ingredient","false","mustard greens","","",,,
+"160",":http://schema.org/Recipe","","Gluten-Free Mac-n-Cheese","","https://www.allrecipes.com/recipe/246771/gluten-free-mac-n-cheese/",,,
+"161",":http://schema.org/Ingredient","false","pasta","","",,,
+"162",":http://schema.org/Ingredient","false","potato starch","","",,,
+"163",":http://schema.org/Ingredient","false","cheddar cheese","","",,,
+"164",":http://schema.org/Ingredient","false","mascarpone","","",,,
+"165",":http://schema.org/Ingredient","false","hot sauce","","",,,
+"166",":http://schema.org/Recipe","","Mushroom Pie","","https://www.allrecipes.com/recipe/88086/mushroom-pie/",,,
+"167",":http://schema.org/Ingredient","false","tomato catsup with mushrooms","","",,,
+"168",":http://schema.org/Ingredient","true","bacon (canned)","","",,,
+"169",":http://schema.org/Ingredient","false","swiss cheese","","",,,
+"170",":http://schema.org/Ingredient","false","dill food product","","",,,
+"171",":http://schema.org/Ingredient","false","puff pastry shortening","","",,,
+"172",":http://schema.org/Recipe","","Onion Tart","","https://www.allrecipes.com/recipe/15629/onion-tart/",,,
+"173",":http://schema.org/Ingredient","false","pie crust","","",,,
+,,,,,,"2","0","hasAuthor"
+,,,,,,"2","1","hasSource"
+,,,,,,"2","3","hasIngredient"
+,,,,,,"2","4","hasIngredient"
+,,,,,,"2","5","hasIngredient"
+,,,,,,"2","6","hasIngredient"
+,,,,,,"2","7","hasIngredient"
+,,,,,,"2","8","hasIngredient"
+,,,,,,"2","9","hasIngredient"
+,,,,,,"2","10","hasIngredient"
+,,,,,,"2","11","hasIngredient"
+,,,,,,"2","12","hasIngredient"
+,,,,,,"2","13","hasIngredient"
+,,,,,,"2","14","hasIngredient"
+,,,,,,"2","15","hasIngredient"
+,,,,,,"2","16","hasIngredient"
+,,,,,,"2","17","hasIngredient"
+,,,,,,"18","0","hasAuthor"
+,,,,,,"18","1","hasSource"
+,,,,,,"18","19","hasIngredient"
+,,,,,,"18","4","hasIngredient"
+,,,,,,"18","10","hasIngredient"
+,,,,,,"18","20","hasIngredient"
+,,,,,,"18","13","hasIngredient"
+,,,,,,"18","21","hasIngredient"
+,,,,,,"18","22","hasIngredient"
+,,,,,,"18","23","hasIngredient"
+,,,,,,"18","7","hasIngredient"
+,,,,,,"18","24","hasIngredient"
+,,,,,,"18","17","hasIngredient"
+,,,,,,"25","0","hasAuthor"
+,,,,,,"25","1","hasSource"
+,,,,,,"25","26","hasIngredient"
+,,,,,,"25","27","hasIngredient"
+,,,,,,"25","28","hasIngredient"
+,,,,,,"25","6","hasIngredient"
+,,,,,,"25","29","hasIngredient"
+,,,,,,"25","30","hasIngredient"
+,,,,,,"25","15","hasIngredient"
+,,,,,,"25","31","hasIngredient"
+,,,,,,"25","32","hasIngredient"
+,,,,,,"25","33","hasIngredient"
+,,,,,,"25","34","hasIngredient"
+,,,,,,"25","16","hasIngredient"
+,,,,,,"25","35","hasIngredient"
+,,,,,,"25","36","hasIngredient"
+,,,,,,"25","37","hasIngredient"
+,,,,,,"25","38","hasIngredient"
+,,,,,,"25","39","hasIngredient"
+,,,,,,"25","40","hasIngredient"
+,,,,,,"25","41","hasIngredient"
+,,,,,,"25","42","hasIngredient"
+,,,,,,"25","43","hasIngredient"
+,,,,,,"25","44","hasIngredient"
+,,,,,,"25","45","hasIngredient"
+,,,,,,"25","46","hasIngredient"
+,,,,,,"47","0","hasAuthor"
+,,,,,,"47","1","hasSource"
+,,,,,,"47","48","hasIngredient"
+,,,,,,"47","15","hasIngredient"
+,,,,,,"47","49","hasIngredient"
+,,,,,,"47","42","hasIngredient"
+,,,,,,"47","50","hasIngredient"
+,,,,,,"47","51","hasIngredient"
+,,,,,,"52","0","hasAuthor"
+,,,,,,"52","1","hasSource"
+,,,,,,"52","29","hasIngredient"
+,,,,,,"52","53","hasIngredient"
+,,,,,,"52","54","hasIngredient"
+,,,,,,"52","55","hasIngredient"
+,,,,,,"52","23","hasIngredient"
+,,,,,,"52","56","hasIngredient"
+,,,,,,"52","57","hasIngredient"
+,,,,,,"52","58","hasIngredient"
+,,,,,,"59","0","hasAuthor"
+,,,,,,"59","1","hasSource"
+,,,,,,"59","60","hasIngredient"
+,,,,,,"59","61","hasIngredient"
+,,,,,,"59","62","hasIngredient"
+,,,,,,"59","63","hasIngredient"
+,,,,,,"59","64","hasIngredient"
+,,,,,,"59","65","hasIngredient"
+,,,,,,"59","66","hasIngredient"
+,,,,,,"59","67","hasIngredient"
+,,,,,,"59","55","hasIngredient"
+,,,,,,"59","68","hasIngredient"
+,,,,,,"59","69","hasIngredient"
+,,,,,,"59","10","hasIngredient"
+,,,,,,"59","70","hasIngredient"
+,,,,,,"59","12","hasIngredient"
+,,,,,,"59","71","hasIngredient"
+,,,,,,"72","0","hasAuthor"
+,,,,,,"72","1","hasSource"
+,,,,,,"72","73","hasIngredient"
+,,,,,,"72","74","hasIngredient"
+,,,,,,"72","75","hasIngredient"
+,,,,,,"72","8","hasIngredient"
+,,,,,,"72","76","hasIngredient"
+,,,,,,"72","13","hasIngredient"
+,,,,,,"72","77","hasIngredient"
+,,,,,,"72","12","hasIngredient"
+,,,,,,"72","78","hasIngredient"
+,,,,,,"72","10","hasIngredient"
+,,,,,,"72","79","hasIngredient"
+,,,,,,"72","29","hasIngredient"
+,,,,,,"72","23","hasIngredient"
+,,,,,,"72","80","hasIngredient"
+,,,,,,"72","81","hasIngredient"
+,,,,,,"72","82","hasIngredient"
+,,,,,,"72","16","hasIngredient"
+,,,,,,"72","83","hasIngredient"
+,,,,,,"84","0","hasAuthor"
+,,,,,,"84","1","hasSource"
+,,,,,,"84","74","hasIngredient"
+,,,,,,"84","60","hasIngredient"
+,,,,,,"84","85","hasIngredient"
+,,,,,,"84","86","hasIngredient"
+,,,,,,"84","5","hasIngredient"
+,,,,,,"84","8","hasIngredient"
+,,,,,,"84","87","hasIngredient"
+,,,,,,"84","88","hasIngredient"
+,,,,,,"84","23","hasIngredient"
+,,,,,,"84","89","hasIngredient"
+,,,,,,"84","90","hasIngredient"
+,,,,,,"84","91","hasIngredient"
+,,,,,,"84","15","hasIngredient"
+,,,,,,"84","92","hasIngredient"
+,,,,,,"84","36","hasIngredient"
+,,,,,,"84","70","hasIngredient"
+,,,,,,"84","26","hasIngredient"
+,,,,,,"84","93","hasIngredient"
+,,,,,,"84","29","hasIngredient"
+,,,,,,"84","94","hasIngredient"
+,,,,,,"84","95","hasIngredient"
+,,,,,,"84","96","hasIngredient"
+,,,,,,"97","0","hasAuthor"
+,,,,,,"97","1","hasSource"
+,,,,,,"97","75","hasIngredient"
+,,,,,,"97","10","hasIngredient"
+,,,,,,"97","98","hasIngredient"
+,,,,,,"97","5","hasIngredient"
+,,,,,,"97","86","hasIngredient"
+,,,,,,"97","8","hasIngredient"
+,,,,,,"97","11","hasIngredient"
+,,,,,,"97","12","hasIngredient"
+,,,,,,"97","99","hasIngredient"
+,,,,,,"97","100","hasIngredient"
+,,,,,,"97","29","hasIngredient"
+,,,,,,"97","17","hasIngredient"
+,,,,,,"97","101","hasIngredient"
+,,,,,,"97","93","hasIngredient"
+,,,,,,"97","23","hasIngredient"
+,,,,,,"97","53","hasIngredient"
+,,,,,,"97","102","hasIngredient"
+,,,,,,"97","103","hasIngredient"
+,,,,,,"104","0","hasAuthor"
+,,,,,,"104","1","hasSource"
+,,,,,,"104","105","hasIngredient"
+,,,,,,"104","29","hasIngredient"
+,,,,,,"104","23","hasIngredient"
+,,,,,,"104","106","hasIngredient"
+,,,,,,"104","8","hasIngredient"
+,,,,,,"104","13","hasIngredient"
+,,,,,,"104","107","hasIngredient"
+,,,,,,"104","55","hasIngredient"
+,,,,,,"104","108","hasIngredient"
+,,,,,,"104","109","hasIngredient"
+,,,,,,"104","110","hasIngredient"
+,,,,,,"104","111","hasIngredient"
+,,,,,,"104","12","hasIngredient"
+,,,,,,"104","112","hasIngredient"
+,,,,,,"104","113","hasIngredient"
+,,,,,,"104","114","hasIngredient"
+,,,,,,"104","115","hasIngredient"
+,,,,,,"104","116","hasIngredient"
+,,,,,,"117","0","hasAuthor"
+,,,,,,"117","1","hasSource"
+,,,,,,"117","118","hasIngredient"
+,,,,,,"117","111","hasIngredient"
+,,,,,,"117","119","hasIngredient"
+,,,,,,"117","120","hasIngredient"
+,,,,,,"117","71","hasIngredient"
+,,,,,,"117","121","hasIngredient"
+,,,,,,"117","122","hasIngredient"
+,,,,,,"117","123","hasIngredient"
+,,,,,,"117","108","hasIngredient"
+,,,,,,"117","124","hasIngredient"
+,,,,,,"117","29","hasIngredient"
+,,,,,,"117","105","hasIngredient"
+,,,,,,"125","0","hasAuthor"
+,,,,,,"125","1","hasSource"
+,,,,,,"125","126","hasIngredient"
+,,,,,,"125","127","hasIngredient"
+,,,,,,"125","13","hasIngredient"
+,,,,,,"125","17","hasIngredient"
+,,,,,,"125","23","hasIngredient"
+,,,,,,"125","64","hasIngredient"
+,,,,,,"125","128","hasIngredient"
+,,,,,,"125","129","hasIngredient"
+,,,,,,"130","0","hasAuthor"
+,,,,,,"130","1","hasSource"
+,,,,,,"130","131","hasIngredient"
+,,,,,,"130","132","hasIngredient"
+,,,,,,"130","133","hasIngredient"
+,,,,,,"130","134","hasIngredient"
+,,,,,,"135","0","hasAuthor"
+,,,,,,"135","1","hasSource"
+,,,,,,"135","136","hasIngredient"
+,,,,,,"135","29","hasIngredient"
+,,,,,,"135","23","hasIngredient"
+,,,,,,"135","137","hasIngredient"
+,,,,,,"135","138","hasIngredient"
+,,,,,,"135","139","hasIngredient"
+,,,,,,"135","133","hasIngredient"
+,,,,,,"135","140","hasIngredient"
+,,,,,,"135","20","hasIngredient"
+,,,,,,"135","141","hasIngredient"
+,,,,,,"135","142","hasIngredient"
+,,,,,,"135","12","hasIngredient"
+,,,,,,"143","0","hasAuthor"
+,,,,,,"143","1","hasSource"
+,,,,,,"143","60","hasIngredient"
+,,,,,,"143","74","hasIngredient"
+,,,,,,"143","8","hasIngredient"
+,,,,,,"143","13","hasIngredient"
+,,,,,,"143","70","hasIngredient"
+,,,,,,"143","144","hasIngredient"
+,,,,,,"143","145","hasIngredient"
+,,,,,,"143","29","hasIngredient"
+,,,,,,"143","23","hasIngredient"
+,,,,,,"143","146","hasIngredient"
+,,,,,,"143","147","hasIngredient"
+,,,,,,"143","65","hasIngredient"
+,,,,,,"143","148","hasIngredient"
+,,,,,,"143","149","hasIngredient"
+,,,,,,"143","17","hasIngredient"
+,,,,,,"143","150","hasIngredient"
+,,,,,,"143","96","hasIngredient"
+,,,,,,"151","0","hasAuthor"
+,,,,,,"151","1","hasSource"
+,,,,,,"151","152","hasIngredient"
+,,,,,,"151","5","hasIngredient"
+,,,,,,"151","153","hasIngredient"
+,,,,,,"151","112","hasIngredient"
+,,,,,,"151","154","hasIngredient"
+,,,,,,"151","74","hasIngredient"
+,,,,,,"151","155","hasIngredient"
+,,,,,,"151","156","hasIngredient"
+,,,,,,"151","23","hasIngredient"
+,,,,,,"151","105","hasIngredient"
+,,,,,,"151","29","hasIngredient"
+,,,,,,"151","111","hasIngredient"
+,,,,,,"151","157","hasIngredient"
+,,,,,,"151","158","hasIngredient"
+,,,,,,"151","159","hasIngredient"
+,,,,,,"160","0","hasAuthor"
+,,,,,,"160","1","hasSource"
+,,,,,,"160","161","hasIngredient"
+,,,,,,"160","60","hasIngredient"
+,,,,,,"160","8","hasIngredient"
+,,,,,,"160","162","hasIngredient"
+,,,,,,"160","70","hasIngredient"
+,,,,,,"160","163","hasIngredient"
+,,,,,,"160","164","hasIngredient"
+,,,,,,"160","165","hasIngredient"
+,,,,,,"166","0","hasAuthor"
+,,,,,,"166","1","hasSource"
+,,,,,,"166","74","hasIngredient"
+,,,,,,"166","167","hasIngredient"
+,,,,,,"166","8","hasIngredient"
+,,,,,,"166","168","hasIngredient"
+,,,,,,"166","36","hasIngredient"
+,,,,,,"166","169","hasIngredient"
+,,,,,,"166","14","hasIngredient"
+,,,,,,"166","170","hasIngredient"
+,,,,,,"166","171","hasIngredient"
+,,,,,,"166","128","hasIngredient"
+,,,,,,"172","0","hasAuthor"
+,,,,,,"172","1","hasSource"
+,,,,,,"172","60","hasIngredient"
+,,,,,,"172","20","hasIngredient"
+,,,,,,"172","32","hasIngredient"
+,,,,,,"172","173","hasIngredient"
+,,,,,,"172","168","hasIngredient"
