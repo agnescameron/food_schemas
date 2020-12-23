@@ -29,19 +29,19 @@ def clean_ingredient(ingredient):
 	#get rid of digits and punctuation and bracket
 	ingredient = re.sub(r"[\(\[].*?[\)\]]", "", ingredient)
 	ingredient = re.sub(r'[^a-zA-Z\s]', '', ingredient)
-    
+
 	for word in remove:
 		ingredient = re.sub(rf"(\s|^){word}(\s|$)", ' ', ingredient)
 
 	frag = nlp(ingredient)
 	[token.text for token in frag]
 
-	ing = ''
+	cleaned_ingredient = ''
 	for token in frag:
 		# if token.tag_ in ['NNP', 'NNS', 'NN', 'JJ']:
 		if token.pos_  not in ['VERB', 'NUM', 'PUNCT', 'ADP']:
-		   if not token.is_stop:
-				  ing = ing + token.text + ' '   
-               
-	print('cleaned', ing)
-	return ing
+			if not token.is_stop:
+					cleaned_ingredient = cleaned_ingredient + token.text + ' '   
+
+	print('cleaned', cleaned_ingredient.strip())
+	return cleaned_ingredient.strip()
