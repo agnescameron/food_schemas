@@ -1,4 +1,5 @@
 namespace ul http://underlay.org/
+namespace fo http://purl.obolibrary.org/obo/
 
 class ul:recipe {
   ul:name -> string ;
@@ -7,6 +8,10 @@ class ul:recipe {
 
 class ul:ingredient {
   ul:name -> string ;
+}
+
+class fo:FOODON_00001002 {
+  fo:url -> string ;
 }
 
 class ul:webpage {
@@ -20,3 +25,4 @@ class ul:tag {
 edge ul:recipe ==/ ul:hasIngredient /=> ul:ingredient
 edge ul:recipe ==/ ul:hasSource /=> ul:webpage
 edge ul:recipe ==/ ul:hasAssociatedTags /=> ul:tag
+edge ul:ingredient ==/ ul:matchesFoodONEntity /=> fo:FOODON_00001002

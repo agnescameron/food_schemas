@@ -69,17 +69,24 @@ def insert_data(recipe):
 		cleaned_ingredient = cleaning.clean_ingredient(ingredient)
 		matched_ingredient = match_label(cleaned_ingredient, recipe.title)
 
+		#create a new ingredient for each recipe entry
+		meat = False
+		for word in meats:
+			if word in original_ingredient.lower(): meat = True
+
+		ingredientNode = Node("http://underlay.org/Ingredient", hasCleanedName=cleaned_ingredient, hasEntryInRecipe=original_ingredient, containsMeat=meat)
+		tx.create(ingredientNode)
+
+		relation = Relationship(recipeNode, "http://underlay.org/hasIngredient", ingredientNode)
+		tx.create(relation)
+
 		if matched_ingredient:
-			ingredient = matcher.match("http://underlay.org/Ingredient", matchedFoodONEntity=matched_ingredient["label"]).first()
-			if ingredient == None:
-				meat = False
-				for word in meats:
-					if word in matched_ingredient["label"].lower(): meat = True
-				print('1', cleaned_ingredient, '2', original_ingredient, '3', matched_ingredient["label"])
-				ingredient = Node("http://underlay.org/Ingredient", hasCleanedName=cleaned_ingredient, matchedFoodONEntity=matched_ingredient["label"], hasEntryInRecipe=original_ingredient, containsMeat=meat)
-				tx.create(ingredient)
-			relation = Relationship(recipeNode, "http://underlay.org/hasIngredient", ingredient)
-			tx.create(relation)
+			entityNode = matcher.match("http://purl.obolibrary.org/obo/FOODON_00001002", iri=matched_ingredient["iri"]).first()
+			if entityNode == None:
+				entityNode = Node("http://purl.obolibrary.org/obo/FOODON_00001002", iri=matched_ingredient["iri"], label=matched_ingredient["label"])
+				tx.create(entityNode)
+			entity_relation = Relationship(ingredientNode, "http://underlay.org/matchesFoodONEntity/FOODON_00001002", entityNode)
+			tx.create(entity_relation)
 		tx.commit()
 
 	for tag in recipe.tags:
