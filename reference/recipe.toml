@@ -1,34 +1,22 @@
-namespace = "http://example.com/"
+namespace ul http://underlay.org/
 
-[classes.Recipe]
-name = "string"
-wasDerivedFromURL = "string"
-[classes.Recipe.hasAuthor]
-kind = "reference"
-label = "Author"
-cardinality = "optional"
-[classes.Recipe.hasSource]
-kind = "reference"
-label = "Webpage"
-cardinality = "optional"
-[classes.Recipe.hasIngredient]
-kind = "reference"
-label = "Ingredient"
-cardinality = "any"
-[classes.Recipe.hasAssociatedTags]
-kind = "reference"
-label = "Tag"
-cardinality = "any"
+class ul:recipe {
+  ul:name -> string ;
+  ul:author -> string ;
+}
 
-[classes.Ingredient]
-name = "string"
-url = "string"
+class ul:ingredient {
+  ul:name -> string ;
+}
 
-[classes.Webpage]
-url = "string"
+class ul:webpage {
+  ul:name -> string ;
+}
 
-[classes.Author]
-name = "string"
+class ul:tag {
+  ul:name -> string ;
+}
 
-[classes.Tag]
-name = "string"
+edge ul:recipe ==/ ul:hasIngredient /=> ul:ingredient
+edge ul:recipe ==/ ul:hasSource /=> ul:webpage
+edge ul:recipe ==/ ul:hasAssociatedTags /=> ul:tag
