@@ -1,7 +1,6 @@
 #scrape a bunch of recipes
 import re
 import json
-import toml
 import sqlite3
 import os
 import requests
@@ -33,7 +32,7 @@ def insert_data(recipe):
 		conn = sqlite3.connect(os.path.join(dirname, db_file))
 		c = conn.cursor()
 		with conn:
-			c.execute("INSERT INTO 'https://schema.org/Recipe' ('https://schema.org/Recipe/name', 'https://schema.org/Recipe/author', 'https://schema.org/Recipe/source') VALUES (?, ?, ?)", (recipe.title, recipe.author, recipe.source))
+			c.execute("INSERT INTO 'http://underlay.org/ns/Recipe' ('http://underlay.org/ns/Recipe/name', 'http://underlay.org/ns/Recipe/author', 'http://underlay.org/ns/Recipe/source') VALUES (?, ?, ?)", (recipe.title, recipe.author, recipe.source))
 			recipe_id = c.lastrowid
 	except sqlite3.Error as e:
 		print(e)
@@ -54,25 +53,39 @@ def insert_data(recipe):
 					description = matched_ingredient['description'][0]
 
 				with conn:
-					##insert the ingredients
+
+					##insert or match with foodON entity
 					row = c.execute('''
-						SELECT * FROM "https://schema.org/Ingredient"
-						WHERE "https://schema.org/Ingredient/name" = ?''', (matched_ingredient['label'],))
+						SELECT * FROM "http://purl.obolibrary.org/obo/FOODON_00001002"
+						WHERE "http://purl.obolibrary.org/obo/FOODON_00001002/iri" = ?''', (matched_ingredient['iri'],))
 					row = row.fetchone()
 
 					if row is None:
 						c.execute('''
-							INSERT INTO "https://schema.org/Ingredient" ("https://schema.org/Ingredient/description", "https://schema.org/Ingredient/id", "https://schema.org/Ingredient/name") 
-							VALUES (?,?,?)''', (description , matched_ingredient['iri'] , matched_ingredient['label'] ))
-						row_id = c.lastrowid
+							INSERT INTO "http://purl.obolibrary.org/obo/FOODON_00001002" ("http://purl.obolibrary.org/obo/FOODON_00001002/iri", "http://purl.obolibrary.org/obo/FOODON_00001002/label") 
+							VALUES (?,?)''', (matched_ingredient['iri'] , matched_ingredient['label'] ))
+						foodON_id = c.lastrowid
 						conn.commit()
 					else:
-						row_id = row[0]
+						foodON_id = row[0]
 
-					##now, add to the ingredient list
+					##insert the ingredient
 					c.execute('''
-						INSERT INTO "https://schema.org/Recipe/Ingredient" ("http://underlay.org/ns/source", "http://underlay.org/ns/target") 
-						VALUES (?,?)''', (recipe_id, row_id))
+						INSERT INTO "http://underlay.org/ns/Ingredient" ("http://underlay.org/ns/Ingredient/hasCleanedName", "http://underlay.org/ns/Ingredient/hasNameInRecipe") 
+						VALUES (?,?)''', (matched_ingredient['iri'] , matched_ingredient['label'] ))
+					ingredient_id = c.lastrowid
+
+					##match ingredient to recipe
+					c.execute('''
+						INSERT INTO "http://underlay.org/ns/Recipe/hasIngredient" ("http://underlay.org/ns/source", "http://underlay.org/ns/target") 
+						VALUES (?,?)''', (recipe_id, ingredient_id))
+
+					##match ingredient to entity
+					c.execute('''
+						INSERT INTO "http://underlay.org/ns/Ingredient/matchesFoodONEntity" ("http://underlay.org/ns/source", "http://underlay.org/ns/target") 
+						VALUES (?,?)''', (ingredient_id, foodON_id))
+
+					conn.commit()
 
 			except sqlite3.Error as e:
 				print('sqlite', e)
@@ -87,10 +100,25 @@ if __name__ == "__main__":
 		conn = sqlite3.connect(os.path.join(dirname, db_file))
 		c = conn.cursor()
 		with conn:
-			c.execute('''CREATE TABLE IF NOT EXISTS "https://schema.org/Recipe" ( id INTEGER PRIMARY KEY, "https://schema.org/Recipe/author" text not null, "https://schema.org/Recipe/name" text not null, "https://schema.org/Recipe/source" text not null )''')
-			c.execute('''CREATE TABLE IF NOT EXISTS "https://schema.org/Ingredient" ( id INTEGER PRIMARY KEY, "https://schema.org/Ingredient/description" text, "https://schema.org/Ingredient/id" text not null, "https://schema.org/Ingredient/name" text not null )''')
-			c.execute('''CREATE TABLE IF NOT EXISTS "https://schema.org/Recipe/Ingredient" ( id INTEGER PRIMARY KEY, "http://underlay.org/ns/source" integer not null references "https://schema.org/Recipe", "http://underlay.org/ns/target" integer not null references "https://schema.org/Ingredient" )''')
+
+			#table for recipes
+			c.execute('''CREATE TABLE IF NOT EXISTS "http://underlay.org/ns/Recipe" ( id INTEGER PRIMARY KEY, "http://underlay.org/ns/Recipe/author" text not null, "http://underlay.org/ns/Recipe/name" text not null, "http://underlay.org/ns/Recipe/source" text not null )''')
+
+			#table for ingredients
+			c.execute('''CREATE TABLE IF NOT EXISTS "http://underlay.org/ns/Ingredient" ( id INTEGER PRIMARY KEY, "http://underlay.org/ns/Ingredient/hasCleanedName" text not null, "http://underlay.org/ns/Ingredient/hasNameInRecipe" text not null )''')
+
+			#table for foodON entities
+			c.execute('''CREATE TABLE IF NOT EXISTS `http://purl.obolibrary.org/obo/FOODON_00001002` ( id INTEGER PRIMARY KEY, "http://purl.obolibrary.org/obo/FOODON_00001002/iri" text not null, "http://purl.obolibrary.org/obo/FOODON_00001002/label" text not null )''')
+
+			#table for recipe/ingredient relationship
+			c.execute('''CREATE TABLE IF NOT EXISTS "http://underlay.org/ns/Recipe/hasIngredient" ( id INTEGER PRIMARY KEY, "http://underlay.org/ns/source" integer not null references "http://underlay.org/ns/Recipe", "http://underlay.org/ns/target" integer not null references "http://underlay.org/ns/Ingredient" )''')
+
+			#table for ingredient/entity match
+			c.execute('''CREATE TABLE IF NOT EXISTS "http://underlay.org/ns/Ingredient/matchesFoodONEntity" ( id INTEGER PRIMARY KEY, "http://underlay.org/ns/source" integer not null references "http://underlay.org/ns/Ingredient", "http://underlay.org/ns/target" integer not null references "http://purl.obolibrary.org/obo/FOODON_00001002" )''')
+
 			c.execute("PRAGMA foreign_keys = ON;")
+
+			conn.commit()
 	except sqlite3.Error as e:
 		print(e)
 

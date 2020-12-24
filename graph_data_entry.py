@@ -85,7 +85,7 @@ def insert_data(recipe):
 			if entityNode == None:
 				entityNode = Node("http://purl.obolibrary.org/obo/FOODON_00001002", iri=matched_ingredient["iri"], label=matched_ingredient["label"])
 				tx.create(entityNode)
-			entity_relation = Relationship(ingredientNode, "http://underlay.org/matchesFoodONEntity/FOODON_00001002", entityNode)
+			entity_relation = Relationship(ingredientNode, "http://underlay.org/Ingredient/matchesFoodONEntity", entityNode)
 			tx.create(entity_relation)
 		tx.commit()
 
