@@ -1,4 +1,4 @@
-namespace ul http://underlay.org/
+namespace ul http://underlay.org/ns/
 namespace fo http://purl.obolibrary.org/obo/
 
 class ul:recipe {
