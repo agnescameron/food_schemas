@@ -9,15 +9,16 @@ from random import randint
 from time import sleep
 
 
-urls = "https://www.spendwithpennies.com/borscht-recipe-beet-soup/"
+pages = np.arange(1, 3, 1)
 recipes = []
 def scrape():
     
     recipes = []
 
-    for url in urls:
-        driver = webdriver.Chrome('/Users/favourkelvin/Downloads/chromedriver')
-        driver.get(urls)  
+    for page in pages:
+        page="https://www.spendwithpennies.com/borscht-recipe-beet-soup/"
+        driver = webdriver.Chrome('/Users/MyUsername/Downloads/chromedriver')
+        driver.get(page)  
         sleep(randint(1,2))
         soup = BeautifulSoup(driver.page_source, 'html.parser')
         title = soup.find('h1')
@@ -53,7 +54,7 @@ def scrape():
         else:
             title = None
             
-        recipe = Recipe(title, ingredients, directions, urls)
+        recipe = Recipe(title, ingredients, directions, page)
         recipes.append(recipe)
         print('this recipe has', len(ingredients), 'ingredients, and', len(directions), 'steps')
         
