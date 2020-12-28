@@ -1,5 +1,6 @@
 from py2neo import Graph, Node, Relationship, NodeMatcher
 import os
+import cmd
 
 uri = 'bolt://localhost:7687'
 user = 'neo4j'
@@ -7,13 +8,22 @@ password = 'snacks'
 
 def fill_schema():
 	tx = graph_db.begin()
-	collection = Node("http://www.w3.org/ns/prov/Entity", type='collection', url='https://github.com/agnescameron/food_schemas/tree/master/collections_graph/12_28_20')
+
+	collection_url = input("please provide a URL for the collection (e.g. https://github.com/agnescameron/food_schemas/collections_graph/<mm_dd_yy>): ")
+	collection = Node("http://www.w3.org/ns/prov/Entity", type='collection', url=collection_url)
 	tx.create(collection)
 
-	agent = Node("http://www.w3.org/ns/prov/Agent", name='Agnes Cameron', url='https://github.com/agnescameron')
+
+	agent_name = input("please enter your name: ")
+	agent_email = input("please enter your email: ")
+	agent_git = input("please enter your github username: ")
+	agent = Node("http://www.w3.org/ns/prov/Agent", name='Agnes Cameron', email='agnescam@mit.edu', git='agnescameron')
 	tx.create(agent)
 
-	script = Node("http://underlay.org/ns/Script", repository='https://github.com/agnescameron/food_schemas/', version='50c4b35')
+
+	script_repo = input("please enter the repository url for the script used to generate this collection: ")
+	script_version = input("please enter the commit id: ")
+	script = Node("http://underlay.org/ns/Script", repository=script_repo, version=script_version)
 	tx.create(script)
 
 	generated_relation = Relationship(collection, "http://www.w3.org/ns/prov/WasGeneratedBy",script)
