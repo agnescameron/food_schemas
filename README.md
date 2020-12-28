@@ -50,6 +50,7 @@ Existing scraping modules:
 * `scrapers/py_scraper.py` -- uses the python module [recipe-scrapers](https://github.com/hhursev/recipe-scrapers), which can scrape a range of different recipe sites. A quick test on a random range of urls from smaller sites had about 50% success, much higher for larger sites (+ 100% success for each on their list). 
 * `scrapers/manual.py` -- was the first attempt at a scraper using beautiful soup and regular expressions. Not very effective, but could be improved and might be able to get some sites where py_scraper doesn't work
 * `scrapers/nyt.py` -- gets recipes from the scraped nyt archive -- you need a .zip of this from me for this to work, unzip in top level directory
+* `scrapers/scraper.py` -- first attempt at using selenium and beautiful soup in scraping. Not very effective , but could be improved.
 
 To use a different scraper module, change line 13 of the file `sqlite_data_entry.py` (by default it's set to `py_scraper`, which right now is set up to scrape okonomiyaki recipes):
 
@@ -78,3 +79,13 @@ and, finally, those objects should be returned from `scrape()`, where they will 
 ```
 return recipes
 ```
+
+### Using Scraper.py 
+
+Install and download a webdriver, `chrome` is used in this case. Change the path 
+
+```
+/Users/MyUsername/Downloads/chromedriver
+```
+
+to where you saved your webdriver download on your local computer. 
