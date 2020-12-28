@@ -1,0 +1,988 @@
+"_id","_labels","containsMeat","hasCleanedName","hasEntryInRecipe","iri","label","name","url","wasDerivedFromURL","_start","_end","_type"
+"0",":http://underlay.org/ns/Author","","","","","","","","",,,
+"1",":http://underlay.org/ns/Webpage","","","","","","","https://www.allrecipes.com","",,,
+"2",":http://underlay.org/ns/Recipe","","","","","","Ukrainian Red Borscht Soup","","https://www.allrecipes.com/recipe/84450/ukrainian-red-borscht-soup/",,,
+"3",":http://underlay.org/ns/Ingredient","true","pork sausage","1 (16 ounce) package pork sausage","","","","","",,,
+"4",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00002729","pork sausage","","","",,,
+"5",":http://underlay.org/ns/Ingredient","false","beets","3 medium beets, peeled and shredded","","","","","",,,
+"6",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03540708","07080 - root and tuber vegetables (excluding starchy- and sugar-) (efsa foodex2)","","","",,,
+"7",":http://underlay.org/ns/Ingredient","false","carrots","3 carrots, peeled and shredded","","","","","",,,
+"8",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03540712","07120 - carrots (efsa foodex2)","","","",,,
+"9",":http://underlay.org/ns/Ingredient","false","baking potatoes","3 medium baking potatoes, peeled and cubed","","","","","",,,
+"10",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03301940","baking powder","","","",,,
+"11",":http://underlay.org/ns/Ingredient","false","vegetable oil","1 tablespoon vegetable oil","","","","","",,,
+"12",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03305263","vegetable oil","","","",,,
+"13",":http://underlay.org/ns/Ingredient","false","onion","1 medium onion, chopped","","","","","",,,
+"14",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03301704","onion (whole, raw)","","","",,,
+"15",":http://underlay.org/ns/Ingredient","false","paste","1 (6 ounce) can tomato paste","","","","","",,,
+"16",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00001008","liver paste","","","",,,
+"17",":http://underlay.org/ns/Ingredient","false","water","¾ cup water","","","","","",,,
+"18",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03302269","soda water","","","",,,
+"19",":http://underlay.org/ns/Ingredient","false","cabbage","½ medium head cabbage, cored and shredded","","","","","",,,
+"20",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00003406","cabbage (whole)","","","",,,
+"21",":http://underlay.org/ns/Ingredient","false","tomatoes","1 (8 ounce) can diced tomatoes, drained","","","","","",,,
+"22",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03540633","06330 - tomatoes (efsa foodex2)","","","",,,
+"23",":http://underlay.org/ns/Ingredient","false","cloves garlic","3 cloves garlic, minced","","","","","",,,
+"24",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00001745","clove food product","","","",,,
+"25",":http://underlay.org/ns/Ingredient","false","salt pepper","salt and pepper to taste","","","","","",,,
+"26",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03305070","salt and pepper spray","","","",,,
+"27",":http://underlay.org/ns/Ingredient","false","white sugar","1 teaspoon white sugar, or to taste","","","","","",,,
+"28",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03420157","white sugar","","","",,,
+"29",":http://underlay.org/ns/Ingredient","false","sour cream","½ cup sour cream, for topping","","","","","",,,
+"30",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03302515","sour cream","","","",,,
+"31",":http://underlay.org/ns/Ingredient","false","parsley","1 tablespoon chopped fresh parsley for garnish","","","","","",,,
+"32",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00002942","parsley leaf","","","",,,
+"33",":http://underlay.org/ns/Recipe","","","","","","Polish Borscht","","https://www.allrecipes.com/recipe/262725/polish-borscht/",,,
+"34",":http://underlay.org/ns/Ingredient","false","wild mushrooms","6 dried wild mushrooms","","","","","",,,
+"35",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03540807","08070 - other wild mushrooms (efsa foodex2)","","","",,,
+"36",":http://underlay.org/ns/Ingredient","false","beets","8 medium beets, trimmed","","","","","",,,
+"37",":http://underlay.org/ns/Ingredient","false","water","4 quarts water, or more as needed","","","","","",,,
+"38",":http://underlay.org/ns/Ingredient","false","onions","2 onions, chopped","","","","","",,,
+"39",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03540579","05790 - onions (efsa foodex2)","","","",,,
+"40",":http://underlay.org/ns/Ingredient","false","cloves garlic","2 cloves garlic, halved","","","","","",,,
+"41",":http://underlay.org/ns/Ingredient","false","allspice berries","10 whole allspice berries","","","","","",,,
+"42",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00002667","allspice","","","",,,
+"43",":http://underlay.org/ns/Ingredient","false","bay","4 bay leaves","","","","","",,,
+"44",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03411197","bay plant","","","",,,
+"45",":http://underlay.org/ns/Ingredient","false","salt black pepper","salt and freshly ground black pepper","","","","","",,,
+"46",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00001649","black or white pepper product","","","",,,
+"47",":http://underlay.org/ns/Ingredient","false","vegetable oil","5 tablespoons vegetable oil","","","","","",,,
+"48",":http://underlay.org/ns/Ingredient","false","lemon","1 lemon, juiced","","","","","",,,
+"49",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03301441","lemon (whole, raw)","","","",,,
+"50",":http://underlay.org/ns/Ingredient","false","parsley","1 bunch fresh parsley, chopped (Optional)","","","","","",,,
+"51",":http://underlay.org/ns/Recipe","","","","","","Yukon Cornelius Pull-Apart Cupcake Cake","","https://www.allrecipes.com/recipe/277690/yukon-cornelius-pull-apart-cupcake-cake/",,,
+"52",":http://underlay.org/ns/Ingredient","false","allpurpose flour","1 ¾ cups all-purpose flour","","","","","",,,
+"53",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00003317","graham flour","","","",,,
+"54",":http://underlay.org/ns/Ingredient","false","dark cocoa powder","1 cup dark cocoa powder (such as Hershey's® Special Dark), sifted","","","","","",,,
+"55",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03301072","cocoa","","","",,,
+"56",":http://underlay.org/ns/Ingredient","false","baking soda","2 teaspoons baking soda","","","","","",,,
+"57",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00002385","baking soda product","","","",,,
+"58",":http://underlay.org/ns/Ingredient","false","baking powder","1 teaspoon baking powder","","","","","",,,
+"59",":http://underlay.org/ns/Ingredient","false","salt","¾ teaspoon salt","","","","","",,,
+"60",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/CHEBI_24866","salt","","","",,,
+"61",":http://underlay.org/ns/Ingredient","false","firmly brown sugar","1 cup firmly packed brown sugar","","","","","",,,
+"62",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03420156","brown sugar","","","",,,
+"63",":http://underlay.org/ns/Ingredient","false","white sugar","½ cup white sugar","","","","","",,,
+"64",":http://underlay.org/ns/Ingredient","false","unsalted butter","½ cup unsalted butter, softened","","","","","",,,
+"65",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03301777","butter (unsalted)","","","",,,
+"66",":http://underlay.org/ns/Ingredient","false","eggs room temperature","2 large eggs, at room temperature","","","","","",,,
+"67",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03401038","50132500 - eggs/eggs substitutes (gs1 gpc)","","","",,,
+"68",":http://underlay.org/ns/Ingredient","false","vanilla extract","2 teaspoons vanilla extract","","","","","",,,
+"69",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03316764","vanilla bean extract","","","",,,
+"70",":http://underlay.org/ns/Ingredient","false","strongly coffee room temperature","1 cup strongly brewed coffee, cooled to room temperature","","","","","",,,
+"71",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03301036","coffee (liquid drink)","","","",,,
+"72",":http://underlay.org/ns/Ingredient","false","sour cream","1 cup sour cream","","","","","",,,
+"73",":http://underlay.org/ns/Ingredient","false","white chocolate chips","20 ounces white chocolate chips (such as Ghirardelli®)","","","","","",,,
+"74",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03301329","white chocolate","","","",,,
+"75",":http://underlay.org/ns/Ingredient","false","heavy cream","8 ounces heavy cream","","","","","",,,
+"76",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03420161","mammalian heavy cream (36%+)","","","",,,
+"77",":http://underlay.org/ns/Ingredient","false","crushed peppermint candies","⅓ cup crushed peppermint candies","","","","","",,,
+"78",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03303920","peppermint","","","",,,
+"79",":http://underlay.org/ns/Ingredient","false","peppermint extract","½ teaspoon peppermint extract, or to taste","","","","","",,,
+"80",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03304824","peppermint patty","","","",,,
+"81",":http://underlay.org/ns/Ingredient","false","unsalted butter","1 ½ cups unsalted butter, softened","","","","","",,,
+"82",":http://underlay.org/ns/Ingredient","false","powdered sugar","5 cups powdered sugar, or as needed","","","","","",,,
+"83",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03305100","sugar cane (powdered)","","","",,,
+"84",":http://underlay.org/ns/Ingredient","false","vanilla extract","1 ½ teaspoons vanilla extract","","","","","",,,
+"85",":http://underlay.org/ns/Ingredient","false","peppermint extract","1 teaspoon peppermint extract, or to taste","","","","","",,,
+"86",":http://underlay.org/ns/Ingredient","false","salt","¼ teaspoon salt","","","","","",,,
+"87",":http://underlay.org/ns/Ingredient","false","heavy cream","⅓ cup heavy cream, or as needed","","","","","",,,
+"88",":http://underlay.org/ns/Ingredient","false","yellow food coloring","6 drops yellow food coloring, or as needed, divided","","","","","",,,
+"89",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/foodon.owl","Food Ontology","","","",,,
+"90",":http://underlay.org/ns/Ingredient","false","cocoa powder","1 teaspoon cocoa powder, or as needed","","","","","",,,
+"91",":http://underlay.org/ns/Ingredient","false","red food","6 drops red food coloring, or as needed, divided","","","","","",,,
+"92",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00002194","red snapper food product","","","",,,
+"93",":http://underlay.org/ns/Ingredient","false","marshmallows","1 (10.5 ounce) package large marshmallows","","","","","",,,
+"94",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03543051","30510 - foamed sugar products (marshmallows) (efsa foodex2)","","","",,,
+"95",":http://underlay.org/ns/Ingredient","false","dark chocolate chips","1 (12 ounce) bag dark chocolate chips","","","","","",,,
+"96",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03303588","dark chocolate","","","",,,
+"97",":http://underlay.org/ns/Ingredient","false","piping bags","piping bags","","","","","",,,
+"98",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03400899","10000116 - tea - bags/loose (gs1 gpc)","","","",,,
+"99",":http://underlay.org/ns/Ingredient","false","couplers","couplers","","","","","",,,
+"100",":http://underlay.org/ns/Ingredient","false","round piping tips","large round piping tips","","","","","",,,
+"101",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03309681","salmon (tips and tails, raw)","","","",,,
+"102",":http://underlay.org/ns/Ingredient","false","open star piping","large open star piping tip","","","","","",,,
+"103",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00003102","star fruit food product","","","",,,
+"104",":http://underlay.org/ns/Recipe","","","","","","Cranberry Salad","","https://www.allrecipes.com/recipe/212467/cranberry-salad/",,,
+"105",":http://underlay.org/ns/Ingredient","false","cranberries","1 (12 ounce) package fresh cranberries, finely chopped","","","","","",,,
+"106",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03541595","15950 - cranberries (efsa foodex2)","","","",,,
+"107",":http://underlay.org/ns/Ingredient","false","white sugar","½ cup white sugar","","","","","",,,
+"108",":http://underlay.org/ns/Ingredient","false","apples","2 cups chopped apples","","","","","",,,
+"109",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03541473","14730 - apples (efsa foodex2)","","","",,,
+"110",":http://underlay.org/ns/Ingredient","false","miniature marshmallows","1 cup miniature marshmallows","","","","","",,,
+"111",":http://underlay.org/ns/Ingredient","false","pecans","½ cup chopped pecans","","","","","",,,
+"112",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03541150","11500 - pecans (efsa foodex2)","","","",,,
+"113",":http://underlay.org/ns/Ingredient","false","vanilla yogurt","½ cup vanilla yogurt","","","","","",,,
+"114",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00002328","vanilla bean food product","","","",,,
+"115",":http://underlay.org/ns/Ingredient","false","","1 cup frozen whipped topping (such as Cool Whip®), thawed","","","","","",,,
+"116",":http://underlay.org/ns/Recipe","","","","","","Cardamom Maple Salmon","","https://www.allrecipes.com/recipe/237297/cardamom-maple-salmon/",,,
+"117",":http://underlay.org/ns/Ingredient","false","salt","1 ½ teaspoons salt","","","","","",,,
+"118",":http://underlay.org/ns/Ingredient","false","paprika","1 teaspoon paprika","","","","","",,,
+"119",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03301105","paprika","","","",,,
+"120",":http://underlay.org/ns/Ingredient","false","cardamom","1 teaspoon ground cardamom","","","","","",,,
+"121",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00002924","green cardamom","","","",,,
+"122",":http://underlay.org/ns/Ingredient","false","coriander","1 teaspoon ground coriander","","","","","",,,
+"123",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03310370","coriander (whole)","","","",,,
+"124",":http://underlay.org/ns/Ingredient","false","black pepper","½ teaspoon ground black pepper","","","","","",,,
+"125",":http://underlay.org/ns/Ingredient","false","grapeseed oil","¼ cup grapeseed oil","","","","","",,,
+"126",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03316687","grape seed oil (edible)","","","",,,
+"127",":http://underlay.org/ns/Ingredient","false","maple syrup","2 tablespoons maple syrup","","","","","",,,
+"128",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03301848","maple syrup","","","",,,
+"129",":http://underlay.org/ns/Ingredient","false","salmon fillet","1 (2 pound) salmon fillet, cut into 3-inch pieces","","","","","",,,
+"130",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00003342","fillet","","","",,,
+"131",":http://underlay.org/ns/Recipe","","","","","","Al's Burmese Chicken Curry","","https://www.allrecipes.com/recipe/276989/als-burmese-chicken-curry/",,,
+"132",":http://underlay.org/ns/Ingredient","false","butter","1 teaspoon butter, or as needed","","","","","",,,
+"133",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03310351","butter","","","",,,
+"134",":http://underlay.org/ns/Ingredient","false","shallots","8 shallots, thinly sliced","","","","","",,,
+"135",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03540585","05850 - shallots (efsa foodex2)","","","",,,
+"136",":http://underlay.org/ns/Ingredient","false","red curry paste","3 tablespoons red curry paste, or more to taste","","","","","",,,
+"137",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03302920","curry paste","","","",,,
+"138",":http://underlay.org/ns/Ingredient","false","hot curry powder","2 tablespoons hot curry powder","","","","","",,,
+"139",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03301842","curry powder","","","",,,
+"140",":http://underlay.org/ns/Ingredient","false","red chile pepper","1 tablespoon ground red chile pepper","","","","","",,,
+"141",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03315873","chili pepper","","","",,,
+"142",":http://underlay.org/ns/Ingredient","true","chicken thighs","2 ½ pounds chicken thighs","","","","","",,,
+"143",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03411457","chicken","","","",,,
+"144",":http://underlay.org/ns/Ingredient","false","lemongrass","1 lemongrass, smashed and cut into 1-inch pieces","","","","","",,,
+"145",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03540911","09110 - lemongrass (efsa foodex2)","","","",,,
+"146",":http://underlay.org/ns/Ingredient","false","birds eye chile peppers","10 bird's eye chile peppers, chopped, or to taste","","","","","",,,
+"147",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/NCBITaxon_4071","Capsicum","","","",,,
+"148",":http://underlay.org/ns/Ingredient","false","coriander","1 tablespoon ground coriander","","","","","",,,
+"149",":http://underlay.org/ns/Ingredient","false","kaffir lime","2 kaffir lime leaves, or to taste","","","","","",,,
+"150",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03540903","09030 - kaffir lime leaves (efsa foodex2)","","","",,,
+"151",":http://underlay.org/ns/Ingredient","true","fish sauce","3 tablespoons fish sauce","","","","","",,,
+"152",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03317197","fish sauce","","","",,,
+"153",":http://underlay.org/ns/Ingredient","false","water","water to cover","","","","","",,,
+"154",":http://underlay.org/ns/Ingredient","false","milk","1 (14 ounce) can coconut milk","","","","","",,,
+"155",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/UBERON_0001913","milk","","","",,,
+"156",":http://underlay.org/ns/Ingredient","false","tomatoes","4 tomatoes, quartered","","","","","",,,
+"157",":http://underlay.org/ns/Ingredient","false","cilantro","½ small bunch fresh cilantro, chopped, or to taste","","","","","",,,
+"158",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03540837","08370 - coriander leaves (efsa foodex2)","","","",,,
+"159",":http://underlay.org/ns/Recipe","","","","","","Low Carb Turkey-Stuffed Peppers","","https://www.allrecipes.com/recipe/276832/low-carb-turkey-stuffed-peppers/",,,
+"160",":http://underlay.org/ns/Ingredient","false","nonfat cooking spray","nonfat cooking spray","","","","","",,,
+"161",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03309370","cooking spray (nonstick)","","","",,,
+"162",":http://underlay.org/ns/Ingredient","false","olive oil","1 tablespoon olive oil","","","","","",,,
+"163",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03301826","olive oil","","","",,,
+"164",":http://underlay.org/ns/Ingredient","true","turkey","1 pound ground turkey","","","","","",,,
+"165",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00002805","turkey (whole, raw)","","","",,,
+"166",":http://underlay.org/ns/Ingredient","false","onion","½ cup diced onion","","","","","",,,
+"167",":http://underlay.org/ns/Ingredient","false","jalapeno pepper","3 tablespoons diced fresh jalapeno pepper, or to taste","","","","","",,,
+"168",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00003494","jalapeno pepper (whole)","","","",,,
+"169",":http://underlay.org/ns/Ingredient","false","cloves garlic","2 cloves garlic, chopped","","","","","",,,
+"170",":http://underlay.org/ns/Ingredient","false","cauliflower rice","2 cups frozen cauliflower rice (such as Green Giant®)","","","","","",,,
+"171",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00003410","cauliflower (whole)","","","",,,
+"172",":http://underlay.org/ns/Ingredient","false","tomatoes undrained","1 (14.5 ounce) can diced tomatoes, undrained","","","","","",,,
+"173",":http://underlay.org/ns/Ingredient","false","sauce","1 (8 ounce) can tomato sauce","","","","","",,,
+"174",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03311146","sauce","","","",,,
+"175",":http://underlay.org/ns/Ingredient","false","water","½ cup water","","","","","",,,
+"176",":http://underlay.org/ns/Ingredient","false","sambal oelek chili paste","2 teaspoons sambal oelek chili paste","","","","","",,,
+"177",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03315435","chili paste","","","",,,
+"178",":http://underlay.org/ns/Ingredient","false","salt","½ teaspoon salt","","","","","",,,
+"179",":http://underlay.org/ns/Ingredient","false","black pepper","½ teaspoon freshly ground black pepper","","","","","",,,
+"180",":http://underlay.org/ns/Ingredient","false","bell color   lengthwise seeded","2 large bell peppers, any color - cut in half lengthwise, cored, and seeded","","","","","",,,
+"181",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03304823","roll (seeded)","","","",,,
+"182",":http://underlay.org/ns/Ingredient","false","colbyjack cheese","4 (1 inch) cubes Colby-Jack cheese","","","","","",,,
+"183",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00002425","stracchino cheese","","","",,,
+"184",":http://underlay.org/ns/Ingredient","false","aluminum foil","aluminum foil","","","","","",,,
+"185",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03490190","aluminum foil wrapper","","","",,,
+"186",":http://underlay.org/ns/Ingredient","false","colbyjack cheese","⅓ cup shredded Colby-Jack cheese","","","","","",,,
+"187",":http://underlay.org/ns/Ingredient","false","reducedfat sour cream","4 teaspoons reduced-fat sour cream","","","","","",,,
+"188",":http://underlay.org/ns/Ingredient","false","jalapeno peppers","8 slices pickled jalapeno peppers (Optional)","","","","","",,,
+"189",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03306075","jalapeno jelly","","","",,,
+"190",":http://underlay.org/ns/Recipe","","","","","","Perfect Lasagna Bolognese","","https://www.allrecipes.com/recipe/254700/perfect-lasagna-bolognese/",,,
+"191",":http://underlay.org/ns/Ingredient","false","olive oil","1 tablespoon olive oil","","","","","",,,
+"192",":http://underlay.org/ns/Ingredient","false","butter","1 tablespoon butter","","","","","",,,
+"193",":http://underlay.org/ns/Ingredient","true","pancetta","½ pound pancetta (Italian bacon), diced","","","","","",,,
+"194",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00003249","pancetta","","","",,,
+"195",":http://underlay.org/ns/Ingredient","false","celery","2 cups chopped celery","","","","","",,,
+"196",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03301862","celery seed","","","",,,
+"197",":http://underlay.org/ns/Ingredient","false","carrots","1 ¾ cups chopped carrots","","","","","",,,
+"198",":http://underlay.org/ns/Ingredient","false","onion","1 ¼ cups chopped onion","","","","","",,,
+"199",":http://underlay.org/ns/Ingredient","false","coarsely","1 ½ pounds coarsely ground chuck","","","","","",,,
+"200",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03430100","divided into pieces, thickness <0.3 cm.","","","",,,
+"201",":http://underlay.org/ns/Ingredient","true","coarsely pork shoulder","1 pound coarsely ground pork shoulder","","","","","",,,
+"202",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03311007","pork shoulder (raw)","","","",,,
+"203",":http://underlay.org/ns/Ingredient","false","salt black pepper","salt and ground black pepper to taste","","","","","",,,
+"204",":http://underlay.org/ns/Ingredient","false","dry white wine","1 cup dry white wine","","","","","",,,
+"205",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00002601","Riesling wine","","","",,,
+"206",":http://underlay.org/ns/Ingredient","false","nosalt tomatoes puree","1 ½ cups no-salt crushed tomatoes in puree","","","","","",,,
+"207",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03316892","vegetable puree","","","",,,
+"208",":http://underlay.org/ns/Ingredient","false","tomato paste","2 tablespoons tomato paste","","","","","",,,
+"209",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03301455","tomato paste","","","",,,
+"210",":http://underlay.org/ns/Ingredient","false","white sugar","1 teaspoon white sugar (Optional)","","","","","",,,
+"211",":http://underlay.org/ns/Ingredient","true","beef broth","½ cup beef broth (Optional)","","","","","",,,
+"212",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03302091","beef broth","","","",,,
+"213",":http://underlay.org/ns/Ingredient","false","heavy whipping cream","½ cup heavy whipping cream","","","","","",,,
+"214",":http://underlay.org/ns/Ingredient","false","milk","½ cup whole milk","","","","","",,,
+"215",":http://underlay.org/ns/Ingredient","false","butter","5 tablespoons butter","","","","","",,,
+"216",":http://underlay.org/ns/Ingredient","false","allpurpose flour","¼ cup all-purpose flour","","","","","",,,
+"217",":http://underlay.org/ns/Ingredient","false","milk","4 cups whole milk","","","","","",,,
+"218",":http://underlay.org/ns/Ingredient","false","bay leaf","1 bay leaf","","","","","",,,
+"219",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03301173","bay leaf (dried)","","","",,,
+"220",":http://underlay.org/ns/Ingredient","false","salt","½ teaspoon salt","","","","","",,,
+"221",":http://underlay.org/ns/Ingredient","false","nutmeg","¼ teaspoon freshly grated nutmeg","","","","","",,,
+"222",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03301528","nutmeg seed (ground)","","","",,,
+"223",":http://underlay.org/ns/Ingredient","false","lasagna sheets","8 (9x13-inch) fresh lasagna sheets","","","","","",,,
+"224",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03306124","lasagna noodle","","","",,,
+"225",":http://underlay.org/ns/Ingredient","false","parmesan cheese","2 cups finely grated Parmesan cheese, divided","","","","","",,,
+"226",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00003247","parmesan cheese","","","",,,
+"227",":http://underlay.org/ns/Recipe","","","","","","Turkey Carcass Soup","","https://www.allrecipes.com/recipe/218804/turkey-carcass-soup/",,,
+"228",":http://underlay.org/ns/Ingredient","true","turkey carcass","1 turkey carcass","","","","","",,,
+"229",":http://underlay.org/ns/Ingredient","false","water","4 quarts water","","","","","",,,
+"230",":http://underlay.org/ns/Ingredient","false","potatoes","6 small potatoes, diced","","","","","",,,
+"231",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03311532","potatoes gratiné (dish)","","","",,,
+"232",":http://underlay.org/ns/Ingredient","false","carrots","4 large carrots, diced","","","","","",,,
+"233",":http://underlay.org/ns/Ingredient","false","stalks celery","2 stalks celery, diced","","","","","",,,
+"234",":http://underlay.org/ns/Ingredient","false","onion","1 large onion, diced","","","","","",,,
+"235",":http://underlay.org/ns/Ingredient","false","cabbage","1 ½ cups shredded cabbage","","","","","",,,
+"236",":http://underlay.org/ns/Ingredient","false","tomatoes","1 (28 ounce) can whole peeled tomatoes, chopped","","","","","",,,
+"237",":http://underlay.org/ns/Ingredient","false","uncooked barley","½ cup uncooked barley","","","","","",,,
+"238",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00003108","barley grain (whole, raw)","","","",,,
+"239",":http://underlay.org/ns/Ingredient","false","worcestershire sauce","1 tablespoon Worcestershire sauce","","","","","",,,
+"240",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03305003","worcestershire sauce","","","",,,
+"241",":http://underlay.org/ns/Ingredient","false","salt","1 ½ teaspoons salt","","","","","",,,
+"242",":http://underlay.org/ns/Ingredient","false","parsley","1 teaspoon dried parsley","","","","","",,,
+"243",":http://underlay.org/ns/Ingredient","false","basil","1 teaspoon dried basil","","","","","",,,
+"244",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00003044","basil food product","","","",,,
+"245",":http://underlay.org/ns/Ingredient","false","bay leaf","1 bay leaf","","","","","",,,
+"246",":http://underlay.org/ns/Ingredient","false","black pepper","¼ teaspoon freshly cracked black pepper","","","","","",,,
+"247",":http://underlay.org/ns/Ingredient","false","paprika","¼ teaspoon paprika","","","","","",,,
+"248",":http://underlay.org/ns/Ingredient","false","poultry seasoning","¼ teaspoon poultry seasoning","","","","","",,,
+"249",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03309964","poultry seasoning (dry)","","","",,,
+"250",":http://underlay.org/ns/Ingredient","false","thyme","1 pinch dried thyme","","","","","",,,
+"251",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00002312","thyme food product","","","",,,
+"252",":http://underlay.org/ns/Recipe","","","","","","West African-Style Peanut Stew with Chicken","","https://www.allrecipes.com/recipe/276720/west-african-style-peanut-stew-with-chicken/",,,
+"253",":http://underlay.org/ns/Ingredient","true","boneless skinless chicken breasts","1 ½ pounds boneless, skinless chicken breasts, cut into 1-inch pieces","","","","","",,,
+"254",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00003364","chicken breast (skinless, boneless)","","","",,,
+"255",":http://underlay.org/ns/Ingredient","false","salt","1 teaspoon salt, divided","","","","","",,,
+"256",":http://underlay.org/ns/Ingredient","false","black pepper","¼ teaspoon ground black pepper","","","","","",,,
+"257",":http://underlay.org/ns/Ingredient","false","peanut oil","3 tablespoons peanut oil, divided","","","","","",,,
+"258",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03309857","peanut oil","","","",,,
+"259",":http://underlay.org/ns/Ingredient","false","onion","2 cups diced onion","","","","","",,,
+"260",":http://underlay.org/ns/Ingredient","false","cloves garlic","2 cloves garlic, minced","","","","","",,,
+"261",":http://underlay.org/ns/Ingredient","false","ginger root","2 tablespoons minced fresh ginger root","","","","","",,,
+"262",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00002718","ginger root","","","",,,
+"263",":http://underlay.org/ns/Ingredient","false","coriander","1 teaspoon ground coriander","","","","","",,,
+"264",":http://underlay.org/ns/Ingredient","false","cumin","½ teaspoon ground cumin","","","","","",,,
+"265",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00003024","cumin seed (whole, dried)","","","",,,
+"266",":http://underlay.org/ns/Ingredient","false","turmeric","¼ teaspoon ground turmeric","","","","","",,,
+"267",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00003020","turmeric extract","","","",,,
+"268",":http://underlay.org/ns/Ingredient","false","cinnamon","¼ teaspoon ground cinnamon","","","","","",,,
+"269",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03301175","cinnamon","","","",,,
+"270",":http://underlay.org/ns/Ingredient","true","lowsodium chicken broth","4 cups low-sodium chicken broth","","","","","",,,
+"271",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03303004","chicken broth","","","",,,
+"272",":http://underlay.org/ns/Ingredient","false","tomatoes juices","1 (14.5 ounce) can no-salt-added diced tomatoes with juices","","","","","",,,
+"273",":http://underlay.org/ns/Ingredient","false","sweet potato","1 large sweet potato, peeled and cut into 1-inch cubes","","","","","",,,
+"274",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00003445","sweet potato (whole)","","","",,,
+"275",":http://underlay.org/ns/Ingredient","false","collard tough ribs leaves","½ bunch collard greens, tough ribs removed and leaves chopped","","","","","",,,
+"276",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03411385","collard plant","","","",,,
+"277",":http://underlay.org/ns/Ingredient","false","red bell peppers","2 red bell peppers, seeded and chopped","","","","","",,,
+"278",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00003013","bell pepper food product","","","",,,
+"279",":http://underlay.org/ns/Ingredient","false","natural peanut butter","⅓ cup natural peanut butter","","","","","",,,
+"280",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03306867","peanut butter","","","",,,
+"281",":http://underlay.org/ns/Ingredient","false","peanuts","6 tablespoons chopped peanuts","","","","","",,,
+"282",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03541181","11810 - peanuts (efsa foodex2)","","","",,,
+"283",":http://underlay.org/ns/Recipe","","","","","","Slow Cooker Low-Carb Santa Fe Chicken","","https://www.allrecipes.com/recipe/241828/slow-cooker-low-carb-santa-fe-chicken/",,,
+"284",":http://underlay.org/ns/Ingredient","false","black beans","1 (15 ounce) can black beans, rinsed and drained","","","","","",,,
+"285",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03301946","baked beans (dish)","","","",,,
+"286",":http://underlay.org/ns/Ingredient","true","chicken broth","1 (14.5 ounce) can fat-free chicken broth","","","","","",,,
+"287",":http://underlay.org/ns/Ingredient","false","tomatoes green chile peppers","1 (14.5 ounce) can diced tomatoes with green chile peppers","","","","","",,,
+"288",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03401754","10006192 - flat sweet peppers (tomato peppers) (gs1 gpc)","","","",,,
+"289",":http://underlay.org/ns/Ingredient","false","corn","1 (8 ounce) bag frozen corn","","","","","",,,
+"290",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03311145","corn (roasted)","","","",,,
+"291",":http://underlay.org/ns/Ingredient","false","cilantro","¼ cup chopped fresh cilantro","","","","","",,,
+"292",":http://underlay.org/ns/Ingredient","false","scallions","3 scallions, chopped","","","","","",,,
+"293",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00002695","scallion food product","","","",,,
+"294",":http://underlay.org/ns/Ingredient","false","garlic powder","1 teaspoon garlic powder","","","","","",,,
+"295",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03301844","garlic powder","","","",,,
+"296",":http://underlay.org/ns/Ingredient","false","onion powder","1 teaspoon onion powder","","","","","",,,
+"297",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03301845","onion powder","","","",,,
+"298",":http://underlay.org/ns/Ingredient","false","cumin","1 teaspoon ground cumin","","","","","",,,
+"299",":http://underlay.org/ns/Ingredient","false","cayenne pepper","1 teaspoon cayenne pepper, or to taste","","","","","",,,
+"300",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03315872","cayenne pepper (dried)","","","",,,
+"301",":http://underlay.org/ns/Ingredient","false","salt","salt to taste","","","","","",,,
+"302",":http://underlay.org/ns/Ingredient","true","skinless boneless chicken breast halves","1 ½ pounds skinless, boneless chicken breast halves","","","","","",,,
+"303",":http://underlay.org/ns/Recipe","","","","","","Bren's Italian Meatballs","","https://www.allrecipes.com/recipe/247370/brens-italian-meatballs/",,,
+"304",":http://underlay.org/ns/Ingredient","false","bread","½ cup fresh bread crumbs","","","","","",,,
+"305",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03301944","raisin bread","","","",,,
+"306",":http://underlay.org/ns/Ingredient","false","pecorino romano cheese","½ cup grated pecorino Romano cheese","","","","","",,,
+"307",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03305231","romano cheese (pecorino-style)","","","",,,
+"308",":http://underlay.org/ns/Ingredient","false","cloves garlic","2 large cloves garlic, minced","","","","","",,,
+"309",":http://underlay.org/ns/Ingredient","false","parsley","1 tablespoon chopped fresh parsley","","","","","",,,
+"310",":http://underlay.org/ns/Ingredient","false","black pepper","¼ teaspoon ground black pepper","","","","","",,,
+"311",":http://underlay.org/ns/Ingredient","false","red chili pepper flakes","1 pinch red chili pepper flakes","","","","","",,,
+"312",":http://underlay.org/ns/Ingredient","false","egg","1 egg","","","","","",,,
+"313",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03420194","egg or egg component","","","",,,
+"314",":http://underlay.org/ns/Ingredient","true","lean beef","1 pound lean ground beef","","","","","",,,
+"315",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03310840","beef (raw, lean)","","","",,,
+"316",":http://underlay.org/ns/Recipe","","","","","","Campfire Pepperoni Pizza","","https://www.allrecipes.com/recipe/215041/campfire-pepperoni-pizza/",,,
+"317",":http://underlay.org/ns/Ingredient","false","refrigerated pizza dough","1 pound refrigerated pizza dough","","","","","",,,
+"318",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03312045","wheat dough (refrigerated)","","","",,,
+"319",":http://underlay.org/ns/Ingredient","false","pizza sauce","¼ cup pizza sauce","","","","","",,,
+"320",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03306786","pizza sauce","","","",,,
+"321",":http://underlay.org/ns/Ingredient","false","mozzarella cheese","½ cup shredded mozzarella cheese","","","","","",,,
+"322",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03303578","mozzarella cheese","","","",,,
+"323",":http://underlay.org/ns/Ingredient","false","pepperoni","½ cup sliced pepperoni","","","","","",,,
+"324",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03311003","pepperoni","","","",,,
+"325",":http://underlay.org/ns/Recipe","","","","","","True Cheeseburger Pizza","","https://www.allrecipes.com/recipe/231771/true-cheeseburger-pizza/",,,
+"326",":http://underlay.org/ns/Ingredient","true","beef chuck","¾ pound ground beef chuck","","","","","",,,
+"327",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03311141","beef chuck (roast cooked)","","","",,,
+"328",":http://underlay.org/ns/Ingredient","false","salt","¼ teaspoon salt","","","","","",,,
+"329",":http://underlay.org/ns/Ingredient","false","black pepper","¼ teaspoon ground black pepper","","","","","",,,
+"330",":http://underlay.org/ns/Ingredient","false","ketchup","⅔ cup ketchup","","","","","",,,
+"331",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03301460","tomato catsup","","","",,,
+"332",":http://underlay.org/ns/Ingredient","false","yellow mustard","2 tablespoons prepared yellow mustard","","","","","",,,
+"333",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00001230","mustard food product","","","",,,
+"334",":http://underlay.org/ns/Ingredient","false","prebaked pizza crust","1 (14 ounce) pre-baked pizza crust","","","","","",,,
+"335",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03317327","pizza crust","","","",,,
+"336",":http://underlay.org/ns/Ingredient","false","mozzarella cheese","1 ½ cups shredded mozzarella cheese","","","","","",,,
+"337",":http://underlay.org/ns/Ingredient","false","sharp cheddar cheese","1 cup shredded sharp Cheddar cheese","","","","","",,,
+"338",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03304590","cheddar cheese (sharp)","","","",,,
+"339",":http://underlay.org/ns/Ingredient","false","onions","½ cup chopped onions","","","","","",,,
+"340",":http://underlay.org/ns/Ingredient","false","dill pickle","½ cup dill pickle slices","","","","","",,,
+"341",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03306757","dill pickle","","","",,,
+"342",":http://underlay.org/ns/Ingredient","false","lettuce","1 cup shredded lettuce (Optional)","","","","","",,,
+"343",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00003423","lettuce leaf (anatomical)","","","",,,
+"344",":http://underlay.org/ns/Ingredient","false","tomatoes","1 cup diced tomatoes (Optional)","","","","","",,,
+"345",":http://underlay.org/ns/Recipe","","","","","","Chicken Lemon Linguine","","https://www.allrecipes.com/recipe/240952/chicken-lemon-linguine/",,,
+"346",":http://underlay.org/ns/Ingredient","false","butter","3 tablespoons butter","","","","","",,,
+"347",":http://underlay.org/ns/Ingredient","false","olive oil","2 tablespoons olive oil, or more as needed","","","","","",,,
+"348",":http://underlay.org/ns/Ingredient","false","onion","1 small onion, chopped","","","","","",,,
+"349",":http://underlay.org/ns/Ingredient","false","cloves garlic","2 cloves garlic, minced, or more to taste","","","","","",,,
+"350",":http://underlay.org/ns/Ingredient","false","milk","2 ½ cups milk","","","","","",,,
+"351",":http://underlay.org/ns/Ingredient","true","chicken bouillon","3 cubes chicken bouillon","","","","","",,,
+"352",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03301433","chicken-flavored bouillon cube","","","",,,
+"353",":http://underlay.org/ns/Ingredient","false","oregano","2 teaspoons dried oregano","","","","","",,,
+"354",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03301482","oregano (ground)","","","",,,
+"355",":http://underlay.org/ns/Ingredient","false","salt","¼ teaspoon salt","","","","","",,,
+"356",":http://underlay.org/ns/Ingredient","false","black pepper","¼ teaspoon ground black pepper","","","","","",,,
+"357",":http://underlay.org/ns/Ingredient","false","cold water","1 cup cold water","","","","","",,,
+"358",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03316455","tea extract (cold-water soluble)","","","",,,
+"359",":http://underlay.org/ns/Ingredient","false","cornstarch","2 tablespoons cornstarch","","","","","",,,
+"360",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03305805","cornstarch (artificially flavored and colored)","","","",,,
+"361",":http://underlay.org/ns/Ingredient","true","chicken","½ pound seasoned grilled chicken chunks","","","","","",,,
+"362",":http://underlay.org/ns/Ingredient","false","linguine pasta","1 (16 ounce) package linguine pasta","","","","","",,,
+"363",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00002637","linguine","","","",,,
+"364",":http://underlay.org/ns/Ingredient","false","lemon juice","¼ cup lemon juice","","","","","",,,
+"365",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03305428","lemon juice","","","",,,
+"366",":http://underlay.org/ns/Ingredient","false","parsley","3 tablespoons chopped fresh parsley","","","","","",,,
+"367",":http://underlay.org/ns/Ingredient","false","lemon zest","1 teaspoon lemon zest","","","","","",,,
+"368",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00003284","lemon zest","","","",,,
+"369",":http://underlay.org/ns/Ingredient","false","parmesan cheese","½ cup grated Parmesan cheese, or to taste","","","","","",,,
+"370",":http://underlay.org/ns/Recipe","","","","","","Honey-Mustard Chicken with Roasted Vegetables","","https://www.allrecipes.com/recipe/241559/honey-mustard-chicken-with-roasted-vegetables/",,,
+"371",":http://underlay.org/ns/Ingredient","false","butternut","3 cups peeled and cubed butternut squash","","","","","",,,
+"372",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03302630","butternut (whole, raw)","","","",,,
+"373",":http://underlay.org/ns/Ingredient","false","carrots","2 carrots, peeled and cut 1-inch pieces","","","","","",,,
+"374",":http://underlay.org/ns/Ingredient","false","parsnip","1 large parsnip, peeled and cut into 1/2-inch pieces","","","","","",,,
+"375",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03307242","parsnip (whole, raw)","","","",,,
+"376",":http://underlay.org/ns/Ingredient","false","sweet potato","1 small sweet potato, peeled and cut into 1/2-inch pieces","","","","","",,,
+"377",":http://underlay.org/ns/Ingredient","false","red onion","1 small red onion, cut into 1-inch wedges","","","","","",,,
+"378",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00003516","red onion (whole)","","","",,,
+"379",":http://underlay.org/ns/Ingredient","false","extravirgin olive oil","2 tablespoons extra-virgin olive oil","","","","","",,,
+"380",":http://underlay.org/ns/Ingredient","false","rosemary","2 teaspoons minced fresh rosemary","","","","","",,,
+"381",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00002212","rosemary food product","","","",,,
+"382",":http://underlay.org/ns/Ingredient","false","sea salt","½ teaspoon sea salt","","","","","",,,
+"383",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03544059","40590 - sea salt (efsa foodex2)","","","",,,
+"384",":http://underlay.org/ns/Ingredient","false","black pepper","¼ teaspoon fresh ground black pepper","","","","","",,,
+"385",":http://underlay.org/ns/Ingredient","true","boneless chicken breast halves","4 skinless, boneless chicken breast halves","","","","","",,,
+"386",":http://underlay.org/ns/Ingredient","false","salt","¼ teaspoon salt","","","","","",,,
+"387",":http://underlay.org/ns/Ingredient","false","black pepper","1 pinch ground black pepper to taste","","","","","",,,
+"388",":http://underlay.org/ns/Ingredient","false","extravirgin olive oil","1 tablespoon extra-virgin olive oil","","","","","",,,
+"389",":http://underlay.org/ns/Ingredient","true","lowsodium chicken broth","½ cup low-sodium chicken broth","","","","","",,,
+"390",":http://underlay.org/ns/Ingredient","false","white wine","¼ cup white wine","","","","","",,,
+"391",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03310273","white wine","","","",,,
+"392",":http://underlay.org/ns/Ingredient","false","honey","2 tablespoons honey","","","","","",,,
+"393",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/UBERON_0036016","honey","","","",,,
+"394",":http://underlay.org/ns/Ingredient","false","mustard","2 tablespoons whole-grain mustard","","","","","",,,
+"395",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00002684","mustard greens","","","",,,
+"396",":http://underlay.org/ns/Recipe","","","","","","Gluten-Free Mac-n-Cheese","","https://www.allrecipes.com/recipe/246771/gluten-free-mac-n-cheese/",,,
+"397",":http://underlay.org/ns/Ingredient","false","glutenfree pasta","12 ounces gluten-free pasta (such as Barilla®)","","","","","",,,
+"398",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03306347","pasta","","","",,,
+"399",":http://underlay.org/ns/Ingredient","false","butter","6 tablespoons butter","","","","","",,,
+"400",":http://underlay.org/ns/Ingredient","false","onion","½ onion, chopped","","","","","",,,
+"401",":http://underlay.org/ns/Ingredient","false","potato starch","¼ cup potato starch","","","","","",,,
+"402",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03307543","potato starch","","","",,,
+"403",":http://underlay.org/ns/Ingredient","false","milk","1 (12 fluid ounce) can evaporated milk","","","","","",,,
+"404",":http://underlay.org/ns/Ingredient","false","cheddar cheese","2 cups shredded Cheddar cheese","","","","","",,,
+"405",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03302458","cheddar cheese","","","",,,
+"406",":http://underlay.org/ns/Ingredient","false","mascarpone cheese","⅓ cup mascarpone cheese","","","","","",,,
+"407",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00003255","mascarpone","","","",,,
+"408",":http://underlay.org/ns/Ingredient","false","hot sauce","3 dashes hot sauce (such as Tabasco®) (Optional)","","","","","",,,
+"409",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03304006","hot sauce","","","",,,
+"410",":http://underlay.org/ns/Recipe","","","","","","Mushroom Pie","","https://www.allrecipes.com/recipe/88086/mushroom-pie/",,,
+"411",":http://underlay.org/ns/Ingredient","false","olive oil","1 tablespoon olive oil","","","","","",,,
+"412",":http://underlay.org/ns/Ingredient","false","mushrooms","1 (10 ounce) package fresh mushrooms, sliced","","","","","",,,
+"413",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03306533","tomato catsup with mushrooms","","","",,,
+"414",":http://underlay.org/ns/Ingredient","false","onion","1 large onion, chopped","","","","","",,,
+"415",":http://underlay.org/ns/Ingredient","true","bacon","4 slices bacon, chopped","","","","","",,,
+"416",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03301960","bacon (canned)","","","",,,
+"417",":http://underlay.org/ns/Ingredient","false","heavy cream","¾ cup heavy cream","","","","","",,,
+"418",":http://underlay.org/ns/Ingredient","false","swiss cheese","1 cup shredded Swiss cheese","","","","","",,,
+"419",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03303659","swiss cheese","","","",,,
+"420",":http://underlay.org/ns/Ingredient","false","salt pepper","salt and pepper to taste","","","","","",,,
+"421",":http://underlay.org/ns/Ingredient","false","dill","1 teaspoon chopped fresh dill","","","","","",,,
+"422",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00001811","dill food product","","","",,,
+"423",":http://underlay.org/ns/Ingredient","false","puff pastry","1 (17.25 ounce) package frozen puff pastry, thawed","","","","","",,,
+"424",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03306655","puff pastry shortening","","","",,,
+"425",":http://underlay.org/ns/Ingredient","false","egg","1 egg, beaten","","","","","",,,
+"426",":http://underlay.org/ns/Recipe","","","","","","Onion Tart","","https://www.allrecipes.com/recipe/15629/onion-tart/",,,
+"427",":http://underlay.org/ns/Ingredient","false","butter","¼ cup butter","","","","","",,,
+"428",":http://underlay.org/ns/Ingredient","false","onions","1 ½ pounds onions, sliced","","","","","",,,
+"429",":http://underlay.org/ns/Ingredient","false","eggs","2 eggs, beaten","","","","","",,,
+"430",":http://underlay.org/ns/Ingredient","false","pie crust","1 (9 inch) pie crust, baked","","","","","",,,
+"431",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03306773","pie crust","","","",,,
+"432",":http://underlay.org/ns/Ingredient","true","bacon","4 slices bacon","","","","","",,,
+,,,,,,,,,,"2","0","http://underlay.org/ns/hasAuthor"
+,,,,,,,,,,"2","1","http://underlay.org/ns/hasSource"
+,,,,,,,,,,"2","3","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"3","4","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","5","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"5","6","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","7","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"7","8","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","9","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"9","10","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","11","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"11","12","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","13","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"13","14","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","15","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"15","16","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","17","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"17","18","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","19","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"19","20","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","21","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"21","22","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","23","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"23","24","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","25","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"25","26","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","27","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"27","28","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","29","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"29","30","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","31","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"31","32","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"33","0","http://underlay.org/ns/hasAuthor"
+,,,,,,,,,,"33","1","http://underlay.org/ns/hasSource"
+,,,,,,,,,,"33","34","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"34","35","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"33","36","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"36","6","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"33","37","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"37","18","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"33","38","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"38","39","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"33","40","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"40","24","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"33","41","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"41","42","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"33","43","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"43","44","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"33","45","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"45","46","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"33","47","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"47","12","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"33","48","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"48","49","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"33","50","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"50","32","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","0","http://underlay.org/ns/hasAuthor"
+,,,,,,,,,,"51","1","http://underlay.org/ns/hasSource"
+,,,,,,,,,,"51","52","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"52","53","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","54","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"54","55","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","56","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"56","57","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","58","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"58","10","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","59","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"59","60","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","61","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"61","62","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","63","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"63","28","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","64","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"64","65","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","66","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"66","67","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","68","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"68","69","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","70","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"70","71","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","72","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"72","30","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","73","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"73","74","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","75","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"75","76","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","77","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"77","78","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","79","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"79","80","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","81","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"81","65","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","82","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"82","83","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","84","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"84","69","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","85","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"85","80","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","86","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"86","60","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","87","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"87","76","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","88","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"88","89","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","90","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"90","55","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","91","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"91","92","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","93","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"93","94","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","95","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"95","96","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","97","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"97","98","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","99","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"51","100","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"100","101","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"51","102","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"102","103","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"104","0","http://underlay.org/ns/hasAuthor"
+,,,,,,,,,,"104","1","http://underlay.org/ns/hasSource"
+,,,,,,,,,,"104","105","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"105","106","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"104","107","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"107","28","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"104","108","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"108","109","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"104","110","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"110","94","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"104","111","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"111","112","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"104","113","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"113","114","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"104","115","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"116","0","http://underlay.org/ns/hasAuthor"
+,,,,,,,,,,"116","1","http://underlay.org/ns/hasSource"
+,,,,,,,,,,"116","117","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"117","60","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"116","118","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"118","119","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"116","120","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"120","121","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"116","122","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"122","123","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"116","124","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"124","46","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"116","125","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"125","126","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"116","127","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"127","128","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"116","129","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"129","130","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"131","0","http://underlay.org/ns/hasAuthor"
+,,,,,,,,,,"131","1","http://underlay.org/ns/hasSource"
+,,,,,,,,,,"131","132","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"132","133","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"131","134","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"134","135","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"131","136","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"136","137","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"131","138","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"138","139","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"131","140","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"140","141","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"131","142","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"142","143","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"131","144","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"144","145","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"131","146","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"146","147","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"131","148","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"148","123","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"131","149","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"149","150","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"131","151","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"151","152","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"131","153","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"153","18","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"131","154","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"154","155","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"131","156","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"156","22","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"131","157","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"157","158","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"159","0","http://underlay.org/ns/hasAuthor"
+,,,,,,,,,,"159","1","http://underlay.org/ns/hasSource"
+,,,,,,,,,,"159","160","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"160","161","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"159","162","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"162","163","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"159","164","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"164","165","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"159","166","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"166","14","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"159","167","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"167","168","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"159","169","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"169","24","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"159","170","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"170","171","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"159","172","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"172","22","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"159","173","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"173","174","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"159","175","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"175","18","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"159","176","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"176","177","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"159","178","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"178","60","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"159","179","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"179","46","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"159","180","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"180","181","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"159","182","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"182","183","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"159","184","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"184","185","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"159","186","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"186","183","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"159","187","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"187","30","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"159","188","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"188","189","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"190","0","http://underlay.org/ns/hasAuthor"
+,,,,,,,,,,"190","1","http://underlay.org/ns/hasSource"
+,,,,,,,,,,"190","191","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"191","163","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"190","192","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"192","133","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"190","193","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"193","194","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"190","195","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"195","196","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"190","197","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"197","8","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"190","198","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"198","14","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"190","199","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"199","200","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"190","201","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"201","202","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"190","203","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"203","46","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"190","204","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"204","205","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"190","206","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"206","207","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"190","208","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"208","209","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"190","210","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"210","28","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"190","211","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"211","212","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"190","213","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"213","76","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"190","214","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"214","155","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"190","215","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"215","133","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"190","216","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"216","53","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"190","217","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"217","155","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"190","218","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"218","219","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"190","220","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"220","60","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"190","221","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"221","222","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"190","223","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"223","224","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"190","225","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"225","226","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"227","0","http://underlay.org/ns/hasAuthor"
+,,,,,,,,,,"227","1","http://underlay.org/ns/hasSource"
+,,,,,,,,,,"227","228","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"228","165","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"227","229","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"229","18","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"227","230","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"230","231","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"227","232","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"232","8","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"227","233","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"233","196","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"227","234","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"234","14","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"227","235","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"235","20","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"227","236","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"236","22","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"227","237","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"237","238","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"227","239","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"239","240","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"227","241","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"241","60","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"227","242","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"242","32","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"227","243","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"243","244","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"227","245","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"245","219","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"227","246","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"246","46","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"227","247","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"247","119","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"227","248","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"248","249","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"227","250","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"250","251","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"252","0","http://underlay.org/ns/hasAuthor"
+,,,,,,,,,,"252","1","http://underlay.org/ns/hasSource"
+,,,,,,,,,,"252","253","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"253","254","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"252","255","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"255","60","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"252","256","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"256","46","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"252","257","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"257","258","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"252","259","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"259","14","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"252","260","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"260","24","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"252","261","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"261","262","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"252","263","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"263","123","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"252","264","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"264","265","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"252","266","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"266","267","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"252","268","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"268","269","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"252","270","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"270","271","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"252","272","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"272","22","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"252","273","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"273","274","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"252","275","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"275","276","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"252","277","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"277","278","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"252","279","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"279","280","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"252","281","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"281","282","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"283","0","http://underlay.org/ns/hasAuthor"
+,,,,,,,,,,"283","1","http://underlay.org/ns/hasSource"
+,,,,,,,,,,"283","284","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"284","285","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"283","286","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"286","271","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"283","287","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"287","288","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"283","289","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"289","290","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"283","291","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"291","158","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"283","292","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"292","293","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"283","294","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"294","295","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"283","296","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"296","297","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"283","298","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"298","265","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"283","299","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"299","300","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"283","301","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"301","60","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"283","302","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"302","254","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"303","0","http://underlay.org/ns/hasAuthor"
+,,,,,,,,,,"303","1","http://underlay.org/ns/hasSource"
+,,,,,,,,,,"303","304","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"304","305","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"303","306","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"306","307","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"303","308","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"308","24","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"303","309","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"309","32","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"303","310","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"310","46","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"303","311","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"311","141","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"303","312","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"312","313","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"303","314","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"314","315","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"316","0","http://underlay.org/ns/hasAuthor"
+,,,,,,,,,,"316","1","http://underlay.org/ns/hasSource"
+,,,,,,,,,,"316","317","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"317","318","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"316","319","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"319","320","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"316","321","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"321","322","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"316","323","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"323","324","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"325","0","http://underlay.org/ns/hasAuthor"
+,,,,,,,,,,"325","1","http://underlay.org/ns/hasSource"
+,,,,,,,,,,"325","326","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"326","327","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"325","328","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"328","60","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"325","329","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"329","46","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"325","330","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"330","331","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"325","332","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"332","333","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"325","334","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"334","335","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"325","336","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"336","322","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"325","337","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"337","338","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"325","339","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"339","39","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"325","340","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"340","341","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"325","342","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"342","343","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"325","344","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"344","22","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"345","0","http://underlay.org/ns/hasAuthor"
+,,,,,,,,,,"345","1","http://underlay.org/ns/hasSource"
+,,,,,,,,,,"345","346","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"346","133","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"345","347","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"347","163","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"345","348","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"348","14","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"345","349","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"349","24","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"345","350","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"350","155","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"345","351","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"351","352","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"345","353","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"353","354","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"345","355","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"355","60","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"345","356","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"356","46","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"345","357","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"357","358","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"345","359","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"359","360","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"345","361","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"361","143","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"345","362","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"362","363","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"345","364","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"364","365","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"345","366","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"366","32","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"345","367","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"367","368","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"345","369","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"369","226","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"370","0","http://underlay.org/ns/hasAuthor"
+,,,,,,,,,,"370","1","http://underlay.org/ns/hasSource"
+,,,,,,,,,,"370","371","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"371","372","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"370","373","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"373","8","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"370","374","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"374","375","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"370","376","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"376","274","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"370","377","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"377","378","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"370","379","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"379","163","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"370","380","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"380","381","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"370","382","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"382","383","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"370","384","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"384","46","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"370","385","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"385","254","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"370","386","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"386","60","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"370","387","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"387","46","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"370","388","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"388","163","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"370","389","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"389","271","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"370","390","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"390","391","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"370","392","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"392","393","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"370","394","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"394","395","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"396","0","http://underlay.org/ns/hasAuthor"
+,,,,,,,,,,"396","1","http://underlay.org/ns/hasSource"
+,,,,,,,,,,"396","397","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"397","398","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"396","399","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"399","133","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"396","400","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"400","14","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"396","401","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"401","402","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"396","403","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"403","155","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"396","404","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"404","405","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"396","406","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"406","407","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"396","408","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"408","409","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"410","0","http://underlay.org/ns/hasAuthor"
+,,,,,,,,,,"410","1","http://underlay.org/ns/hasSource"
+,,,,,,,,,,"410","411","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"411","163","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"410","412","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"412","413","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"410","414","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"414","14","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"410","415","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"415","416","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"410","417","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"417","76","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"410","418","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"418","419","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"410","420","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"420","26","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"410","421","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"421","422","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"410","423","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"423","424","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"410","425","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"425","313","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"426","0","http://underlay.org/ns/hasAuthor"
+,,,,,,,,,,"426","1","http://underlay.org/ns/hasSource"
+,,,,,,,,,,"426","427","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"427","133","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"426","428","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"428","39","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"426","429","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"429","67","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"426","430","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"430","431","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"426","432","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"432","416","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
