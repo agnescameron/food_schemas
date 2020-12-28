@@ -1,0 +1,258 @@
+id,http://underlay.org/ns/Ingredient/hasCleanedName,http://underlay.org/ns/Ingredient/hasNameInRecipe
+1,http://purl.obolibrary.org/obo/FOODON_00002729,pork sausage
+2,http://purl.obolibrary.org/obo/FOODON_03540708,07080 - root and tuber vegetables (excluding starchy- and sugar-) (efsa foodex2)
+3,http://purl.obolibrary.org/obo/FOODON_03540712,07120 - carrots (efsa foodex2)
+4,http://purl.obolibrary.org/obo/FOODON_03301940,baking powder
+5,http://purl.obolibrary.org/obo/FOODON_03305263,vegetable oil
+6,http://purl.obolibrary.org/obo/FOODON_03301704,"onion (whole, raw)"
+7,http://purl.obolibrary.org/obo/FOODON_00001008,liver paste
+8,http://purl.obolibrary.org/obo/FOODON_03302269,soda water
+9,http://purl.obolibrary.org/obo/FOODON_00003406,cabbage (whole)
+10,http://purl.obolibrary.org/obo/FOODON_03540633,06330 - tomatoes (efsa foodex2)
+11,http://purl.obolibrary.org/obo/FOODON_00001745,clove food product
+12,http://purl.obolibrary.org/obo/FOODON_03305070,salt and pepper spray
+13,http://purl.obolibrary.org/obo/FOODON_03420157,white sugar
+14,http://purl.obolibrary.org/obo/FOODON_03302515,sour cream
+15,http://purl.obolibrary.org/obo/FOODON_00002942,parsley leaf
+16,http://purl.obolibrary.org/obo/FOODON_03540807,08070 - other wild mushrooms (efsa foodex2)
+17,http://purl.obolibrary.org/obo/FOODON_03540708,07080 - root and tuber vegetables (excluding starchy- and sugar-) (efsa foodex2)
+18,http://purl.obolibrary.org/obo/FOODON_03302269,soda water
+19,http://purl.obolibrary.org/obo/FOODON_03540579,05790 - onions (efsa foodex2)
+20,http://purl.obolibrary.org/obo/FOODON_00001745,clove food product
+21,http://purl.obolibrary.org/obo/FOODON_00002667,allspice
+22,http://purl.obolibrary.org/obo/FOODON_03411197,bay plant
+23,http://purl.obolibrary.org/obo/FOODON_00001649,black or white pepper product
+24,http://purl.obolibrary.org/obo/FOODON_03305263,vegetable oil
+25,http://purl.obolibrary.org/obo/FOODON_03301441,"lemon (whole, raw)"
+26,http://purl.obolibrary.org/obo/FOODON_00002942,parsley leaf
+27,http://purl.obolibrary.org/obo/FOODON_00003317,graham flour
+28,http://purl.obolibrary.org/obo/FOODON_03301072,cocoa
+29,http://purl.obolibrary.org/obo/FOODON_00002385,baking soda product
+30,http://purl.obolibrary.org/obo/FOODON_03301940,baking powder
+31,http://purl.obolibrary.org/obo/CHEBI_24866,salt
+32,http://purl.obolibrary.org/obo/FOODON_03420156,brown sugar
+33,http://purl.obolibrary.org/obo/FOODON_03420157,white sugar
+34,http://purl.obolibrary.org/obo/FOODON_03301777,butter (unsalted)
+35,http://purl.obolibrary.org/obo/FOODON_03401038,50132500 - eggs/eggs substitutes (gs1 gpc)
+36,http://purl.obolibrary.org/obo/FOODON_03316764,vanilla bean extract
+37,http://purl.obolibrary.org/obo/FOODON_03301036,coffee (liquid drink)
+38,http://purl.obolibrary.org/obo/FOODON_03302515,sour cream
+39,http://purl.obolibrary.org/obo/FOODON_03301329,white chocolate
+40,http://purl.obolibrary.org/obo/FOODON_03420161,mammalian heavy cream (36%+)
+41,http://purl.obolibrary.org/obo/FOODON_03303920,peppermint
+42,http://purl.obolibrary.org/obo/FOODON_03304824,peppermint patty
+43,http://purl.obolibrary.org/obo/FOODON_03301777,butter (unsalted)
+44,http://purl.obolibrary.org/obo/FOODON_03305100,sugar cane (powdered)
+45,http://purl.obolibrary.org/obo/FOODON_03316764,vanilla bean extract
+46,http://purl.obolibrary.org/obo/FOODON_03304824,peppermint patty
+47,http://purl.obolibrary.org/obo/CHEBI_24866,salt
+48,http://purl.obolibrary.org/obo/FOODON_03420161,mammalian heavy cream (36%+)
+49,http://purl.obolibrary.org/obo/foodon.owl,Food Ontology
+50,http://purl.obolibrary.org/obo/FOODON_03301072,cocoa
+51,http://purl.obolibrary.org/obo/FOODON_00002194,red snapper food product
+52,http://purl.obolibrary.org/obo/FOODON_03543051,30510 - foamed sugar products (marshmallows) (efsa foodex2)
+53,http://purl.obolibrary.org/obo/FOODON_03303588,dark chocolate
+54,http://purl.obolibrary.org/obo/FOODON_03400899,10000116 - tea - bags/loose (gs1 gpc)
+55,http://purl.obolibrary.org/obo/FOODON_03309681,"salmon (tips and tails, raw)"
+56,http://purl.obolibrary.org/obo/FOODON_00003102,star fruit food product
+57,http://purl.obolibrary.org/obo/FOODON_03541595,15950 - cranberries (efsa foodex2)
+58,http://purl.obolibrary.org/obo/FOODON_03420157,white sugar
+59,http://purl.obolibrary.org/obo/FOODON_03541473,14730 - apples (efsa foodex2)
+60,http://purl.obolibrary.org/obo/FOODON_03543051,30510 - foamed sugar products (marshmallows) (efsa foodex2)
+61,http://purl.obolibrary.org/obo/FOODON_03541150,11500 - pecans (efsa foodex2)
+62,http://purl.obolibrary.org/obo/FOODON_00002328,vanilla bean food product
+63,http://purl.obolibrary.org/obo/CHEBI_24866,salt
+64,http://purl.obolibrary.org/obo/FOODON_03301105,paprika
+65,http://purl.obolibrary.org/obo/FOODON_00002924,green cardamom
+66,http://purl.obolibrary.org/obo/FOODON_03310370,coriander (whole)
+67,http://purl.obolibrary.org/obo/FOODON_00001649,black or white pepper product
+68,http://purl.obolibrary.org/obo/FOODON_03316687,grape seed oil (edible)
+69,http://purl.obolibrary.org/obo/FOODON_03301848,maple syrup
+70,http://purl.obolibrary.org/obo/FOODON_00003342,fillet
+71,http://purl.obolibrary.org/obo/FOODON_03310351,butter
+72,http://purl.obolibrary.org/obo/FOODON_03540585,05850 - shallots (efsa foodex2)
+73,http://purl.obolibrary.org/obo/FOODON_03302920,curry paste
+74,http://purl.obolibrary.org/obo/FOODON_03301842,curry powder
+75,http://purl.obolibrary.org/obo/FOODON_03315873,chili pepper
+76,http://purl.obolibrary.org/obo/FOODON_03411457,chicken
+77,http://purl.obolibrary.org/obo/FOODON_03540911,09110 - lemongrass (efsa foodex2)
+78,http://purl.obolibrary.org/obo/NCBITaxon_4071,Capsicum
+79,http://purl.obolibrary.org/obo/FOODON_03310370,coriander (whole)
+80,http://purl.obolibrary.org/obo/FOODON_03540903,09030 - kaffir lime leaves (efsa foodex2)
+81,http://purl.obolibrary.org/obo/FOODON_03317197,fish sauce
+82,http://purl.obolibrary.org/obo/FOODON_03302269,soda water
+83,http://purl.obolibrary.org/obo/UBERON_0001913,milk
+84,http://purl.obolibrary.org/obo/FOODON_03540633,06330 - tomatoes (efsa foodex2)
+85,http://purl.obolibrary.org/obo/FOODON_03540837,08370 - coriander leaves (efsa foodex2)
+86,http://purl.obolibrary.org/obo/FOODON_03309370,cooking spray (nonstick)
+87,http://purl.obolibrary.org/obo/FOODON_03301826,olive oil
+88,http://purl.obolibrary.org/obo/FOODON_00002805,"turkey (whole, raw)"
+89,http://purl.obolibrary.org/obo/FOODON_03301704,"onion (whole, raw)"
+90,http://purl.obolibrary.org/obo/FOODON_00003494,jalapeno pepper (whole)
+91,http://purl.obolibrary.org/obo/FOODON_00001745,clove food product
+92,http://purl.obolibrary.org/obo/FOODON_00003410,cauliflower (whole)
+93,http://purl.obolibrary.org/obo/FOODON_03540633,06330 - tomatoes (efsa foodex2)
+94,http://purl.obolibrary.org/obo/FOODON_03311146,sauce
+95,http://purl.obolibrary.org/obo/FOODON_03302269,soda water
+96,http://purl.obolibrary.org/obo/FOODON_03315435,chili paste
+97,http://purl.obolibrary.org/obo/CHEBI_24866,salt
+98,http://purl.obolibrary.org/obo/FOODON_00001649,black or white pepper product
+99,http://purl.obolibrary.org/obo/FOODON_03304823,roll (seeded)
+100,http://purl.obolibrary.org/obo/FOODON_00002425,stracchino cheese
+101,http://purl.obolibrary.org/obo/FOODON_03490190,aluminum foil wrapper
+102,http://purl.obolibrary.org/obo/FOODON_00002425,stracchino cheese
+103,http://purl.obolibrary.org/obo/FOODON_03302515,sour cream
+104,http://purl.obolibrary.org/obo/FOODON_03306075,jalapeno jelly
+105,http://purl.obolibrary.org/obo/FOODON_03301826,olive oil
+106,http://purl.obolibrary.org/obo/FOODON_03310351,butter
+107,http://purl.obolibrary.org/obo/FOODON_00003249,pancetta
+108,http://purl.obolibrary.org/obo/FOODON_03301862,celery seed
+109,http://purl.obolibrary.org/obo/FOODON_03540712,07120 - carrots (efsa foodex2)
+110,http://purl.obolibrary.org/obo/FOODON_03301704,"onion (whole, raw)"
+111,http://purl.obolibrary.org/obo/FOODON_03430100,"divided into pieces, thickness <0.3 cm."
+112,http://purl.obolibrary.org/obo/FOODON_03311007,pork shoulder (raw)
+113,http://purl.obolibrary.org/obo/FOODON_00001649,black or white pepper product
+114,http://purl.obolibrary.org/obo/FOODON_00002601,Riesling wine
+115,http://purl.obolibrary.org/obo/FOODON_03316892,vegetable puree
+116,http://purl.obolibrary.org/obo/FOODON_03301455,tomato paste
+117,http://purl.obolibrary.org/obo/FOODON_03420157,white sugar
+118,http://purl.obolibrary.org/obo/FOODON_03302091,beef broth
+119,http://purl.obolibrary.org/obo/FOODON_03420161,mammalian heavy cream (36%+)
+120,http://purl.obolibrary.org/obo/UBERON_0001913,milk
+121,http://purl.obolibrary.org/obo/FOODON_03310351,butter
+122,http://purl.obolibrary.org/obo/FOODON_00003317,graham flour
+123,http://purl.obolibrary.org/obo/UBERON_0001913,milk
+124,http://purl.obolibrary.org/obo/FOODON_03301173,bay leaf (dried)
+125,http://purl.obolibrary.org/obo/CHEBI_24866,salt
+126,http://purl.obolibrary.org/obo/FOODON_03301528,nutmeg seed (ground)
+127,http://purl.obolibrary.org/obo/FOODON_03306124,lasagna noodle
+128,http://purl.obolibrary.org/obo/FOODON_00003247,parmesan cheese
+129,http://purl.obolibrary.org/obo/FOODON_00002805,"turkey (whole, raw)"
+130,http://purl.obolibrary.org/obo/FOODON_03302269,soda water
+131,http://purl.obolibrary.org/obo/FOODON_03311532,potatoes gratiné (dish)
+132,http://purl.obolibrary.org/obo/FOODON_03540712,07120 - carrots (efsa foodex2)
+133,http://purl.obolibrary.org/obo/FOODON_03301862,celery seed
+134,http://purl.obolibrary.org/obo/FOODON_03301704,"onion (whole, raw)"
+135,http://purl.obolibrary.org/obo/FOODON_00003406,cabbage (whole)
+136,http://purl.obolibrary.org/obo/FOODON_03540633,06330 - tomatoes (efsa foodex2)
+137,http://purl.obolibrary.org/obo/FOODON_00003108,"barley grain (whole, raw)"
+138,http://purl.obolibrary.org/obo/FOODON_03305003,worcestershire sauce
+139,http://purl.obolibrary.org/obo/CHEBI_24866,salt
+140,http://purl.obolibrary.org/obo/FOODON_00002942,parsley leaf
+141,http://purl.obolibrary.org/obo/FOODON_00003044,basil food product
+142,http://purl.obolibrary.org/obo/FOODON_03301173,bay leaf (dried)
+143,http://purl.obolibrary.org/obo/FOODON_00001649,black or white pepper product
+144,http://purl.obolibrary.org/obo/FOODON_03301105,paprika
+145,http://purl.obolibrary.org/obo/FOODON_03309964,poultry seasoning (dry)
+146,http://purl.obolibrary.org/obo/FOODON_00002312,thyme food product
+147,http://purl.obolibrary.org/obo/FOODON_00003364,"chicken breast (skinless, boneless)"
+148,http://purl.obolibrary.org/obo/CHEBI_24866,salt
+149,http://purl.obolibrary.org/obo/FOODON_00001649,black or white pepper product
+150,http://purl.obolibrary.org/obo/FOODON_03309857,peanut oil
+151,http://purl.obolibrary.org/obo/FOODON_03301704,"onion (whole, raw)"
+152,http://purl.obolibrary.org/obo/FOODON_00001745,clove food product
+153,http://purl.obolibrary.org/obo/FOODON_00002718,ginger root
+154,http://purl.obolibrary.org/obo/FOODON_03310370,coriander (whole)
+155,http://purl.obolibrary.org/obo/FOODON_00003024,"cumin seed (whole, dried)"
+156,http://purl.obolibrary.org/obo/FOODON_00003020,turmeric extract
+157,http://purl.obolibrary.org/obo/FOODON_03301175,cinnamon
+158,http://purl.obolibrary.org/obo/FOODON_03303004,chicken broth
+159,http://purl.obolibrary.org/obo/FOODON_03540633,06330 - tomatoes (efsa foodex2)
+160,http://purl.obolibrary.org/obo/FOODON_00003445,sweet potato (whole)
+161,http://purl.obolibrary.org/obo/FOODON_03411385,collard plant
+162,http://purl.obolibrary.org/obo/FOODON_00003013,bell pepper food product
+163,http://purl.obolibrary.org/obo/FOODON_03306867,peanut butter
+164,http://purl.obolibrary.org/obo/FOODON_03541181,11810 - peanuts (efsa foodex2)
+165,http://purl.obolibrary.org/obo/FOODON_03301946,baked beans (dish)
+166,http://purl.obolibrary.org/obo/FOODON_03303004,chicken broth
+167,http://purl.obolibrary.org/obo/FOODON_03401754,10006192 - flat sweet peppers (tomato peppers) (gs1 gpc)
+168,http://purl.obolibrary.org/obo/FOODON_03311145,corn (roasted)
+169,http://purl.obolibrary.org/obo/FOODON_03540837,08370 - coriander leaves (efsa foodex2)
+170,http://purl.obolibrary.org/obo/FOODON_00002695,scallion food product
+171,http://purl.obolibrary.org/obo/FOODON_03301844,garlic powder
+172,http://purl.obolibrary.org/obo/FOODON_03301845,onion powder
+173,http://purl.obolibrary.org/obo/FOODON_00003024,"cumin seed (whole, dried)"
+174,http://purl.obolibrary.org/obo/FOODON_03315872,cayenne pepper (dried)
+175,http://purl.obolibrary.org/obo/CHEBI_24866,salt
+176,http://purl.obolibrary.org/obo/FOODON_00003364,"chicken breast (skinless, boneless)"
+177,http://purl.obolibrary.org/obo/FOODON_03301944,raisin bread
+178,http://purl.obolibrary.org/obo/FOODON_03305231,romano cheese (pecorino-style)
+179,http://purl.obolibrary.org/obo/FOODON_00001745,clove food product
+180,http://purl.obolibrary.org/obo/FOODON_00002942,parsley leaf
+181,http://purl.obolibrary.org/obo/FOODON_00001649,black or white pepper product
+182,http://purl.obolibrary.org/obo/FOODON_03315873,chili pepper
+183,http://purl.obolibrary.org/obo/FOODON_03420194,egg or egg component
+184,http://purl.obolibrary.org/obo/FOODON_03310840,"beef (raw, lean)"
+185,http://purl.obolibrary.org/obo/FOODON_03312045,wheat dough (refrigerated)
+186,http://purl.obolibrary.org/obo/FOODON_03306786,pizza sauce
+187,http://purl.obolibrary.org/obo/FOODON_03303578,mozzarella cheese
+188,http://purl.obolibrary.org/obo/FOODON_03311003,pepperoni
+189,http://purl.obolibrary.org/obo/FOODON_03311141,beef chuck (roast cooked)
+190,http://purl.obolibrary.org/obo/CHEBI_24866,salt
+191,http://purl.obolibrary.org/obo/FOODON_00001649,black or white pepper product
+192,http://purl.obolibrary.org/obo/FOODON_03301460,tomato catsup
+193,http://purl.obolibrary.org/obo/FOODON_00001230,mustard food product
+194,http://purl.obolibrary.org/obo/FOODON_03317327,pizza crust
+195,http://purl.obolibrary.org/obo/FOODON_03303578,mozzarella cheese
+196,http://purl.obolibrary.org/obo/FOODON_03304590,cheddar cheese (sharp)
+197,http://purl.obolibrary.org/obo/FOODON_03540579,05790 - onions (efsa foodex2)
+198,http://purl.obolibrary.org/obo/FOODON_03306757,dill pickle
+199,http://purl.obolibrary.org/obo/FOODON_00003423,lettuce leaf (anatomical)
+200,http://purl.obolibrary.org/obo/FOODON_03540633,06330 - tomatoes (efsa foodex2)
+201,http://purl.obolibrary.org/obo/FOODON_03310351,butter
+202,http://purl.obolibrary.org/obo/FOODON_03301826,olive oil
+203,http://purl.obolibrary.org/obo/FOODON_03301704,"onion (whole, raw)"
+204,http://purl.obolibrary.org/obo/FOODON_00001745,clove food product
+205,http://purl.obolibrary.org/obo/UBERON_0001913,milk
+206,http://purl.obolibrary.org/obo/FOODON_03301433,chicken-flavored bouillon cube
+207,http://purl.obolibrary.org/obo/FOODON_03301482,oregano (ground)
+208,http://purl.obolibrary.org/obo/CHEBI_24866,salt
+209,http://purl.obolibrary.org/obo/FOODON_00001649,black or white pepper product
+210,http://purl.obolibrary.org/obo/FOODON_03316455,tea extract (cold-water soluble)
+211,http://purl.obolibrary.org/obo/FOODON_03305805,cornstarch (artificially flavored and colored)
+212,http://purl.obolibrary.org/obo/FOODON_03411457,chicken
+213,http://purl.obolibrary.org/obo/FOODON_00002637,linguine
+214,http://purl.obolibrary.org/obo/FOODON_03305428,lemon juice
+215,http://purl.obolibrary.org/obo/FOODON_00002942,parsley leaf
+216,http://purl.obolibrary.org/obo/FOODON_00003284,lemon zest
+217,http://purl.obolibrary.org/obo/FOODON_00003247,parmesan cheese
+218,http://purl.obolibrary.org/obo/FOODON_03302630,"butternut (whole, raw)"
+219,http://purl.obolibrary.org/obo/FOODON_03540712,07120 - carrots (efsa foodex2)
+220,http://purl.obolibrary.org/obo/FOODON_03307242,"parsnip (whole, raw)"
+221,http://purl.obolibrary.org/obo/FOODON_00003445,sweet potato (whole)
+222,http://purl.obolibrary.org/obo/FOODON_00003516,red onion (whole)
+223,http://purl.obolibrary.org/obo/FOODON_03301826,olive oil
+224,http://purl.obolibrary.org/obo/FOODON_00002212,rosemary food product
+225,http://purl.obolibrary.org/obo/FOODON_03544059,40590 - sea salt (efsa foodex2)
+226,http://purl.obolibrary.org/obo/FOODON_00001649,black or white pepper product
+227,http://purl.obolibrary.org/obo/FOODON_00003364,"chicken breast (skinless, boneless)"
+228,http://purl.obolibrary.org/obo/CHEBI_24866,salt
+229,http://purl.obolibrary.org/obo/FOODON_00001649,black or white pepper product
+230,http://purl.obolibrary.org/obo/FOODON_03301826,olive oil
+231,http://purl.obolibrary.org/obo/FOODON_03303004,chicken broth
+232,http://purl.obolibrary.org/obo/FOODON_03310273,white wine
+233,http://purl.obolibrary.org/obo/UBERON_0036016,honey
+234,http://purl.obolibrary.org/obo/FOODON_00002684,mustard greens
+235,http://purl.obolibrary.org/obo/FOODON_03306347,pasta
+236,http://purl.obolibrary.org/obo/FOODON_03310351,butter
+237,http://purl.obolibrary.org/obo/FOODON_03301704,"onion (whole, raw)"
+238,http://purl.obolibrary.org/obo/FOODON_03307543,potato starch
+239,http://purl.obolibrary.org/obo/UBERON_0001913,milk
+240,http://purl.obolibrary.org/obo/FOODON_03302458,cheddar cheese
+241,http://purl.obolibrary.org/obo/FOODON_00003255,mascarpone
+242,http://purl.obolibrary.org/obo/FOODON_03304006,hot sauce
+243,http://purl.obolibrary.org/obo/FOODON_03301826,olive oil
+244,http://purl.obolibrary.org/obo/FOODON_03306533,tomato catsup with mushrooms
+245,http://purl.obolibrary.org/obo/FOODON_03301704,"onion (whole, raw)"
+246,http://purl.obolibrary.org/obo/FOODON_03301960,bacon (canned)
+247,http://purl.obolibrary.org/obo/FOODON_03420161,mammalian heavy cream (36%+)
+248,http://purl.obolibrary.org/obo/FOODON_03303659,swiss cheese
+249,http://purl.obolibrary.org/obo/FOODON_03305070,salt and pepper spray
+250,http://purl.obolibrary.org/obo/FOODON_00001811,dill food product
+251,http://purl.obolibrary.org/obo/FOODON_03306655,puff pastry shortening
+252,http://purl.obolibrary.org/obo/FOODON_03420194,egg or egg component
+253,http://purl.obolibrary.org/obo/FOODON_03310351,butter
+254,http://purl.obolibrary.org/obo/FOODON_03540579,05790 - onions (efsa foodex2)
+255,http://purl.obolibrary.org/obo/FOODON_03401038,50132500 - eggs/eggs substitutes (gs1 gpc)
+256,http://purl.obolibrary.org/obo/FOODON_03306773,pie crust
+257,http://purl.obolibrary.org/obo/FOODON_03301960,bacon (canned)
