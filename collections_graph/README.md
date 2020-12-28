@@ -9,3 +9,5 @@ CALL apoc.export.csv.all('recipes.csv', {})
 ```
 
 Each collection may also contain a readme, giving an overview of what that version contains.
+
+For an example, check out 12_28_20.
