@@ -1,0 +1,28 @@
+namespace prov  http://www.w3.org/ns/prov/
+namespace ul  http://underlay.org/ns/
+
+#the collection, things within the collection
+class prov:Entity {
+  prov:id -> string ;
+  prov:attributes -> {
+      prov:type -> string ;
+      ul:url -> string ;
+  }
+}
+
+#whoever generated this version
+class prov:Agent {
+  prov:id -> string ;
+  prov:attributes -> {
+      ul:name -> string ;
+  }
+}
+
+#script used to generate dataset
+class ul:Script {
+  ul:repository -> string ;
+  ul:version -> string ;
+}
+
+edge prov:Entity ==/ prov:WasGeneratedBy /=> ul:Script
+edge prov:Entity ==/ prov:WasAttributedTo /=> prov:Agent
