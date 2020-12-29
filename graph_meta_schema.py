@@ -17,7 +17,7 @@ def fill_schema():
 	agent_name = input("please enter your name: ")
 	agent_email = input("please enter your email: ")
 	agent_git = input("please enter your github username: ")
-	agent = Node("http://www.w3.org/ns/prov/Agent", name='Agnes Cameron', email='agnescam@mit.edu', git='agnescameron')
+	agent = Node("http://www.w3.org/ns/prov/Agent", name=agent_name, email=agent_email, git=agent_git)
 	tx.create(agent)
 
 
