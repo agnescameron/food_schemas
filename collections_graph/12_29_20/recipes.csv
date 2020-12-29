@@ -1,0 +1,111 @@
+"_id","_labels","containsMeat","hasCleanedName","hasEntryInRecipe","iri","label","name","url","wasDerivedFromURL","_start","_end","_type"
+"0",":http://underlay.org/ns/Author","","","","","","","","",,,
+"1",":http://underlay.org/ns/Webpage","","","","","","","https://www.spendwithpennies.com","",,,
+"2",":http://underlay.org/ns/Recipe","","","","","","Borscht Recipe (Beet Soup)","","https://www.spendwithpennies.com/borscht-recipe-beet-soup/",,,
+"3",":http://underlay.org/ns/Ingredient","false","olive oil","olive oil","","","","","",,,
+"4",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03301826","olive oil","","","",,,
+"5",":http://underlay.org/ns/Ingredient","false","red beets","red beets","","","","","",,,
+"6",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03412940","red beet plant","","","",,,
+"7",":http://underlay.org/ns/Ingredient","false","carrots","carrots","","","","","",,,
+"8",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03540712","07120 - carrots (efsa foodex2)","","","",,,
+"9",":http://underlay.org/ns/Ingredient","false","russet potato","russet potato","","","","","",,,
+"10",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03307036","idaho russet potato (whole, raw)","","","",,,
+"11",":http://underlay.org/ns/Ingredient","false","green cabbage","green cabbage","","","","","",,,
+"12",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00002921","green cabbage","","","",,,
+"13",":http://underlay.org/ns/Ingredient","false","garlic","garlic","","","","","",,,
+"14",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03305208","garlic (whole, raw)","","","",,,
+"15",":http://underlay.org/ns/Ingredient","false","vegetable broth","vegetable broth","","","","","",,,
+"16",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03309462","broth","","","",,,
+"17",":http://underlay.org/ns/Ingredient","true","beef broth","beef broth","","","","","",,,
+"18",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03302091","beef broth","","","",,,
+"19",":http://underlay.org/ns/Ingredient","false","dill","dill","","","","","",,,
+"20",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00001811","dill food product","","","",,,
+"21",":http://underlay.org/ns/Ingredient","false","lemon juice","lemon juice","","","","","",,,
+"22",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03305428","lemon juice","","","",,,
+"23",":http://underlay.org/ns/Ingredient","false","lemon zest","lemon zest","","","","","",,,
+"24",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00003284","lemon zest","","","",,,
+"25",":http://underlay.org/ns/Ingredient","false","bay leaf","bay leaf","","","","","",,,
+"26",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03301173","bay leaf (dried)","","","",,,
+"27",":http://underlay.org/ns/Ingredient","false","kosher salt","kosher salt","","","","","",,,
+"28",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03306035","pickle (kosher)","","","",,,
+"29",":http://underlay.org/ns/Ingredient","false","black pepper","black pepper","","","","","",,,
+"30",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_00001649","black or white pepper product","","","",,,
+"31",":http://underlay.org/ns/Ingredient","false","sour cream","sour cream","","","","","",,,
+"32",":http://purl.obolibrary.org/obo/FOODON_00001002","","","","http://purl.obolibrary.org/obo/FOODON_03302515","sour cream","","","",,,
+"33",":http://underlay.org/ns/Ingredient","false","olive oil","olive oil","","","","","",,,
+"34",":http://underlay.org/ns/Ingredient","false","red beets","red beets","","","","","",,,
+"35",":http://underlay.org/ns/Ingredient","false","carrots","carrots","","","","","",,,
+"36",":http://underlay.org/ns/Ingredient","false","russet potato","russet potato","","","","","",,,
+"37",":http://underlay.org/ns/Ingredient","false","green cabbage","green cabbage","","","","","",,,
+"38",":http://underlay.org/ns/Ingredient","false","garlic","garlic","","","","","",,,
+"39",":http://underlay.org/ns/Ingredient","false","vegetable broth","vegetable broth","","","","","",,,
+"40",":http://underlay.org/ns/Ingredient","true","beef broth","beef broth","","","","","",,,
+"41",":http://underlay.org/ns/Ingredient","false","dill","dill","","","","","",,,
+"42",":http://underlay.org/ns/Ingredient","false","lemon juice","lemon juice","","","","","",,,
+"43",":http://underlay.org/ns/Ingredient","false","lemon zest","lemon zest","","","","","",,,
+"44",":http://underlay.org/ns/Ingredient","false","bay leaf","bay leaf","","","","","",,,
+"45",":http://underlay.org/ns/Ingredient","false","kosher salt","kosher salt","","","","","",,,
+"46",":http://underlay.org/ns/Ingredient","false","black pepper","black pepper","","","","","",,,
+"47",":http://underlay.org/ns/Ingredient","false","sour cream","sour cream","","","","","",,,
+,,,,,,,,,,"2","0","http://underlay.org/ns/hasAuthor"
+,,,,,,,,,,"2","1","http://underlay.org/ns/hasSource"
+,,,,,,,,,,"2","3","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"3","4","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","5","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"5","6","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","7","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"7","8","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","9","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"9","10","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","11","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"11","12","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","13","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"13","14","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","15","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"15","16","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","17","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"17","18","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","19","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"19","20","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","21","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"21","22","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","23","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"23","24","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","25","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"25","26","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","27","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"27","28","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","29","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"29","30","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","31","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"31","32","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","33","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"33","4","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","34","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"34","6","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","35","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"35","8","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","36","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"36","10","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","37","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"37","12","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","38","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"38","14","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","39","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"39","16","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","40","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"40","18","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","41","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"41","20","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","42","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"42","22","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","43","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"43","24","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","44","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"44","26","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","45","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"45","28","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","46","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"46","30","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
+,,,,,,,,,,"2","47","http://underlay.org/ns/hasIngredient"
+,,,,,,,,,,"47","32","http://underlay.org/ns/Ingredient/matchesFoodONEntity"
