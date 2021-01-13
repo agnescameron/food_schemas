@@ -1,8 +1,6 @@
 ## Recipe Schema Composer
 
-This script takes the output of a recipe scraper, composes it into a schema using the [FoodON food ontology](https://github.com/FoodOntology/foodon) and inserts it into a sqlite database that satisfies the schema specified in [references/](https://github.com/FoodOntology/foodon). This can then be serialised into assertions using the [io-sqlite](https://github.com/underlay/io-sqlite) module. 
-
-So long as the recipe scraper module is structured correctly (see instructions below), this script will run with any arbitrary scraper.
+This script takes the output of a recipe scraper, composes it into a schema using the [FoodON food ontology](https://github.com/FoodOntology/foodon) and inserts it into a grph database that satisfies the schema specified in [references/](https://github.com/FoodOntology/foodon). So long as the recipe scraper module is structured correctly (see instructions below), this script will run with any arbitrary scraper.
 
 ### Setup
 
@@ -16,7 +14,7 @@ $ pip3 install requirements.txt
 
 To run the graph data entry component, you first need to be running a local [Neo4j](https://neo4j.com/) instance. Create a new, empty graph database, take a note of the password, and start it running.
 
-Modify the following lines in in `graph_data_entry.py` to fit your local installation:
+Modify the following lines in in `data_entry.py` to fit your local installation:
 
 ```
 uri = 'bolt://localhost:7687'
@@ -27,21 +25,12 @@ password = <password>
 To run the script, then do:
 
 ```
-$ python3 graph_data_entry.py
+$ python3 data_entry.py
 ```
-
-If you'd just like to run the SQLite data entry, then, after installing the required packages just run:
-
-```
-$ python3 sqlite_data_entry.py
-```
-Note that the schema in this file is currently somewhat out of sync with the example schema adhered to by the graph data entry. Will update this soon.
-
-NB -- you can also convert sqlite to Neo4j using the `convert_sqlite_graph.py`, though this will also be a bit out of step with the current schema.
 
 ### Structure
 
-* `sqlite_data_entry.py` -- takes in an array of Recipe objects and outputs, matches ingredients to FoodON equivalents (this could be improved) and generates a database called `recipe.sqlite`
+* `data_entry.py` -- takes in an array of Recipe objects and outputs, matches ingredients to FoodON equivalents (this could be improved) and populates a Neo4j instance
 * `references/` -- holds the reference schema, which was used to generate the database template
 * `scrapers/` -- holds the scraping modules and the template class for Recipes (`recipe.py`)
 

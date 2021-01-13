@@ -1,6 +1,0 @@
-"_id","_labels","email","git","name","repository","type","url","version","_start","_end","_type"
-"0",":http://www.w3.org/ns/prov/Entity","","","","","collection","https://github.com/agnescameron/food_schemas/collections_graph/12_29_20","",,,
-"4",":http://www.w3.org/ns/prov/Agent","favour@email.com","fakela","Favour Kelvin","","","","",,,
-"5",":http://underlay.org/ns/Script","","","","https://github.com/agnescameron/food_schemas/","","","213b248",,,
-,,,,,,,,,"0","5","http://www.w3.org/ns/prov/WasGeneratedBy"
-,,,,,,,,,"0","4","http://www.w3.org/ns/prov/WasAttributedTo"
